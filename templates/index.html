@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Complaint Analysis System</title>
+<style>
+  :root { --bg:#f5f6fa; --card:#fff; --text:#1d2433; --muted:#6b7385; --line:#e3e6ee; --accent:#3556d8;
+          --high:#d93a3a; --med:#e0911c; --low:#2b9a5b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12151c; --card:#1b2029; --text:#e8ebf2; --muted:#98a1b5; --line:#2b3240; --accent:#7c97ff; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.5rem; margin:0 0 4px; } .sub { color:var(--muted); margin:0 0 24px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
+  textarea,select { width:100%; padding:10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--text); font:inherit; }
+  textarea { min-height:110px; resize:vertical; }
+  button { background:var(--accent); color:#fff; border:0; padding:10px 18px; border-radius:8px; font:inherit; cursor:pointer; }
+  button.ghost { background:transparent; color:var(--text); border:1px solid var(--line); }
+  .row { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
+  .k { font-size:.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .v { font-size:1.05rem; font-weight:600; margin-top:2px; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:99px; color:#fff; font-size:.85rem; }
+  .High { background:var(--high); } .Medium { background:var(--med); } .Low { background:var(--low); }
+  .reply { background:var(--bg); border-left:4px solid var(--accent); padding:12px 14px; border-radius:6px; margin-top:14px; line-height:1.5; }
+  .hidden { display:none; } .note { color:var(--muted); font-size:.9rem; margin-top:8px; }
+  #fbCorrect { margin-top:12px; } #fbCorrect select { margin-bottom:8px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>AI Complaint Analysis &amp; Response</h1>
+  <p class="sub">TF-IDF + Logistic Regression classification, VADER sentiment, automated replies.</p>
+
+  <div class="card">
+    <textarea id="text" placeholder="Paste a customer complaint, e.g. 'I was charged twice and I need this fixed urgently!'"></textarea>
+    <div class="row"><button id="go">Analyze</button>
+      <button class="ghost" id="ex1">Example: billing</button>
+      <button class="ghost" id="ex2">Example: delivery</button></div>
+  </div>
+
+  <div id="result" class="card hidden">
+    <div class="grid">
+      <div><div class="k">Ticket</div><div class="v" id="rTicket"></div></div>
+      <div><div class="k">Category</div><div class="v" id="rCat"></div></div>
+      <div><div class="k">Intent</div><div class="v" id="rIntent"></div></div>
+      <div><div class="k">Sentiment</div><div class="v" id="rSent"></div></div>
+      <div><div class="k">Priority</div><div class="v"><span id="rPri" class="badge"></span></div></div>
+    </div>
+    <div id="rEsc" class="note hidden">Low confidence: routed to a human agent.</div>
+    <div class="reply" id="rReply"></div>
+
+    <div class="row" style="align-items:center">
+      <span class="note">Was this helpful?</span>
+      <button class="ghost" id="yes">Yes</button><button class="ghost" id="no">No, correct it</button>
+    </div>
+    <div id="fbCorrect" class="hidden">
+      <select id="fbCat"></select><select id="fbIntent"></select>
+      <button id="fbSend">Submit correction</button>
+    </div>
+    <div class="note" id="fbMsg"></div>
+  </div>
+
+  <div class="card"><button class="ghost" id="retrain">Retrain models with feedback</button>
+    <span class="note" id="rtMsg"></span></div>
+</main>
+
+<script>
+const taxonomy = {{ taxonomy | tojson }};
+let last = null;
+const $ = id => document.getElementById(id);
+const post = (u, b) => fetch(u, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(b||{})}).then(r => r.json());
+
+$("ex1").onclick = () => $("text").value = "I was charged twice for my order and this is unacceptable! Fix it immediately.";
+$("ex2").onclick = () => $("text").value = "Hi, my package shows delivered but I never received it. Can you help?";
+
+$("go").onclick = async () => {
+  const r = await post("/api/analyze", {text: $("text").value});
+  if (r.error) { alert(r.error); return; }
+  last = r;
+  $("rTicket").textContent = r.ticket_id;
+  $("rCat").textContent = `${r.category} (${Math.round(r.category_confidence*100)}%)`;
+  $("rIntent").textContent = r.intent;
+  $("rSent").textContent = `${r.sentiment.label} (${r.sentiment.compound})`;
+  $("rPri").textContent = r.priority.level; $("rPri").className = "badge " + r.priority.level;
+  $("rEsc").classList.toggle("hidden", !r.escalated_to_human);
+  $("rReply").textContent = r.response;
+  $("fbCorrect").classList.add("hidden"); $("fbMsg").textContent = "";
+  $("result").classList.remove("hidden");
+};
+
+const fill = () => {
+  const cat = $("fbCat").value;
+  $("fbIntent").innerHTML = taxonomy[cat].map(i => `<option>${i}</option>`).join("");
+};
+$("fbCat").innerHTML = Object.keys(taxonomy).map(c => `<option>${c}</option>`).join("");
+$("fbCat").onchange = fill; fill();
+
+const sendFb = async (helpful, extra) => {
+  const r = await post("/api/feedback", {ticket_id:last.ticket_id, text:last.text,
+      category:last.category, intent:last.intent, helpful, ...extra});
+  $("fbMsg").textContent = r.error || "Thanks, feedback saved.";
+};
+$("yes").onclick = () => sendFb(true);
+$("no").onclick = () => $("fbCorrect").classList.remove("hidden");
+$("fbSend").onclick = () => sendFb(false, {true_category:$("fbCat").value, true_intent:$("fbIntent").value});
+$("retrain").onclick = async () => {
+  $("rtMsg").textContent = " Training...";
+  const r = await post("/api/retrain");
+  $("rtMsg").textContent = " Done. Stage-1 accuracy: " + r.metrics.stage1_accuracy;
+};
+</script>
+</body>
+</html>
