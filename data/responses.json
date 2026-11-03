@@ -1,0 +1,20 @@
+{
+  "double_charge": "We found the duplicate charge on your account and have started a reversal. The extra amount should return to your original payment method within 3-5 business days.",
+  "wrong_amount": "We are reviewing your bill against the agreed price. If an error is confirmed, we will issue a corrected invoice and refund the difference.",
+  "invoice_missing": "We have re-sent your invoice to your registered email. You can also download it any time from Account > Billing > Invoices.",
+  "late_delivery": "We checked with our shipping partner about your delayed order and have asked them to prioritise it. You will get an updated delivery date by email shortly.",
+  "lost_package": "We have opened a trace with the courier for your missing package. If it is not located within 48 hours, we will send a replacement or refund you in full.",
+  "wrong_item": "We will arrange a free pickup of the incorrect item and ship the right one to you at no extra cost. A return label is on its way to your email.",
+  "defective_product": "We will replace the faulty product or refund you, whichever you prefer. Please reply with your order number and a short photo or video of the issue.",
+  "damaged_on_arrival": "We will send a replacement right away at no cost. Please share a photo of the damaged item and its packaging so we can claim with the carrier.",
+  "not_as_described": "We will review the listing against the product you received. You are eligible for a free return and full refund if it does not match the description.",
+  "app_crash": "Please update to the latest version and restart your device. If it still crashes, reply with your device model and app version and our engineers will investigate.",
+  "login_issue": "Please try the 'Forgot password' option and check your spam folder for verification codes. If you still cannot sign in, we will verify your identity and restore access.",
+  "slow_performance": "We are sorry about the slow performance. Please clear your cache or reinstall the app; our team is also checking recent updates for performance regressions.",
+  "password_reset": "We have sent a fresh password reset link to your registered email. It is valid for 30 minutes. If you do not see it, check spam or reply to this message.",
+  "account_locked": "We have flagged your account for manual review and will unlock it once your identity is verified. This normally takes under 24 hours.",
+  "update_details": "You can change your details under Account > Profile. If a field is locked, reply with the new information and we will update it after verification.",
+  "refund_delay": "We have escalated your refund with our finance team. Refunds can take 5-10 business days to appear after the returned item is received and inspected.",
+  "refund_denied": "We are re-examining your refund decision. A senior agent will review the case and contact you with a clear explanation or an updated outcome.",
+  "cancel_order": "We have started the cancellation of your order or subscription. If it has already shipped, we will provide a return label and refund you after it is returned."
+}

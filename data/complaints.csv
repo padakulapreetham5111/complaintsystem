@@ -1,0 +1,1261 @@
+text,category,intent
+"Dear support, the package arrived crused and the item is damaged. I have been a loyal customer for years.",Product Quality,damaged_on_arrival
+"To whom it may concern, the refund was promised in 5 days but nothing arived. I have been a loyal customer for years.",Refund,refund_delay
+"Dear support, my card was blled two times for a single purchase. Please look into it.",Billing,double_charge
+"Hi, shipping is taking far too long.",Delivery,late_delivery
+"Hi team, everything loads very sowly since the updae. This is unacceptable!",Technical Support,slow_performance
+"Dear support, you sent me a different product than what I ordered.",Delivery,wrong_item
+I returned the item but have not receivd my refnd. I am very disappointed.,Refund,refund_delay
+the screen was shattered on delivery. Can you help?,Product Quality,damaged_on_arrival
+I am writing because I need a copy of my receipt but cannot find it. Thanks in advance for your help.,Billing,invoice_missing
+"Hey, the product was broken when I opened the box. Worst service ever.",Product Quality,damaged_on_arrival
+"Dear support, the app is extremely slow and laggy. I have been a loyal custoer for years.",Technical Support,slow_performance
+"To whom it may concen, my refund has been pending for weeks. I am extremely frustrated.",Refund,refund_delay
+"Helo, the total on my invoice does not match what I agreed to pay. Worst service evr.",Billing,wrong_amount
+"Hi team, I was chared twice for the same order. I am very disappointed.",Billing,double_charge
+I returned the item but have not rceived my refund. I am very disappointed.,Refund,refund_delay
+"Hi, the app keps crashing when I open it. Kindly advse.",Technical Support,app_crash
+"Hey, my pacage shows delivered but I never received it. I have been a loyal customer for years.",Delivery,lost_package
+I am writing because the applcation frezes and closes by itself. Thanks in advance for your help.,Technical Support,app_crash
+"Hey, I never received the invoice for my purchase. I am extremely frustratd.",Billing,invoice_missing
+I am writing because I was charged twice for the same order. This is uacceptable!,Billing,double_charge
+I was overcharged on my bill. Please look into it.,Billing,wrong_amount
+"Hi team, I placed an order by mistake and need it cancelled. Please respond asap.",Refund,cancel_order
+"Hi, I want to change my password but canot. I need this fixed urgently.",Account,password_reset
+I am writing because the login page keeps showing an erro. I need this fixed urgently.,Technical Support,login_issue
+the delvery is delayed by over a week. I have been a loyal customer for years.,Delivery,late_delivery
+"Hi team, the system response time is terrible. This is unacceptable!",Technical Support,slow_performance
+"Hello, I need to chane my email address on the account.",Account,update_details
+"Dear support, the parcel seems to be lost in transit.",Delivery,lost_package
+"Hi team, access to my accunt is blocked. Thanks in advance for your hlp.",Account,account_locked
+"Hello, the device is defective and will not turn on. This is an emergency, please act immediately!",Product Quality,defective_product
+"Hey, I want to cancel my order immediately. I need this fixed urgentl.",Refund,cancel_order
+"To whom it may concern, I received the wrong item in my order. This is unacceptable!",Delivery,wrong_item
+"Hi, the package was supposed to arrive days ago. I am extremely frstrated.",Delivery,late_delivery
+I am writing becase I am locked out after too many attempts. I need this fixed urgently.,Account,account_locked
+access to my account is blocked. I have been a loyal customer for yeas.,Account,account_locked
+I am writing because the size and colour delivered is not what I selected. I have been a loyal custoer for years.,Delivery,wrong_item
+"Hi, the features listed are missing from the product. Kindly advse.",Product Quality,not_as_described
+"To whom it may concern, the app is extremely slow and laggy. Kindly advise.",Technical Support,slow_performance
+I am writing because please correct the name on my profile. I need this fixed urgently.,Account,update_details
+"Hi, I need a copy of my receipt but cannot find it.",Billing,invoice_missing
+"Hi, I cannt log in to my acount even with correct details. Worst service ever.",Technical Support,login_issue
+"Good morning, the package arived crushed and the item is damaged.",Product Quality,damaged_on_arrival
+"Hey, the item does not match the description on your website. This is an emergency, please act immediately!",Product Quality,not_as_described
+"Hello, I want to cancel my order immediately. This is unacceptable!",Refund,cancel_order
+"To whom it may concrn, the app keeps crashing when I open it. This is unacceptable!",Technical Support,app_crash
+"Dear support, the package arrived crushed and the item is dmaged. Please look into it.",Product Quality,damaged_on_arrival
+"Hey, the features listed are missing from the product.",Product Quality,not_as_described
+"Hey, the item is faulty and keeps malfunctionng. Thnks in advance for your help.",Product Quality,defective_product
+"Hello, the app is extremely slow and lagy. Can you help?",Technical Support,slow_performance
+"Hello, everything loads very slowly since the update. I am very disappointed.",Technical Support,slow_performance
+the return was denied and I do not understand why. Kindly advise.,Refund,refund_denied
+"Hi team, the product stopped working after two days. This is unacceptable!",Product Quality,defective_product
+"Dear support, my refund has been pnding for weks. Please look into it.",Refund,refund_delay
+"To whom it may concern, please send me the tax invoice for my order.",Billing,invoice_missing
+"Hi team, everything loads very slowly snce the updte.",Technical Support,slow_performance
+your software crashes on startup.,Technical Support,app_crash
+the product stopped working aftr two days. I am extremely frustrated.,Product Quality,defective_product
+"Hey, I am locked out aftr too many attempts. Kindly advise.",Account,account_locked
+sign in fails with an invalid credentials message. Kindly advise.,Technical Support,login_issue
+I am writing because the passwod reset link has expired. I need this fied urgently.,Account,password_reset
+"Dear support, I returned the item but have not received my refun. Can you help?",Refund,refund_delay
+"Good morning, the reset link does not work. Please resond asap.",Account,password_reset
+"Hey, everything loads very slowly snce the update. Please look into it.",Technical Support,slow_performance
+"To whom it may concern, my card was biled two times for a single purchase. Kndly adise.",Billing,double_charge
+"Hi, how can I update my phone number and address. Thanks in advance for your help.",Account,update_details
+"Hey, pease cancel my subscription. Can you help?",Refund,cancel_order
+"Hey, I need a copy of my receit but cannot find it. Worst service ever.",Billing,invoice_missing
+the app is extremely slow and laggy.,Technical Support,slow_performance
+"Dear support, shipping is taking far too long. This is unacceptable!",Delivery,late_delivery
+I am writing because extra fees were aded to my bill withot any notice. I am very disappointed.,Billing,wrong_amount
+"Good morning, the parcel seems to be lost in trnsit. I am very disappointed.",Delivery,lost_package
+"Hi team, the quality is much lower than advertised. Please look into it.",Product Quality,not_as_described
+"Hi team, the application freezes and closes by itslf. Thanks in advance for your help.",Technical Support,app_crash
+I am writing beause everythng loads very slowly since the update. Thanks in advance for your help.,Technical Support,slow_performance
+"Dear support, my refund has been pending for weeks. I have been a loyal customer for years.",Refund,refund_delay
+"Good morning, the courier says delivered but nothng is at my door.",Delivery,lost_package
+"I am writing because the package arrived crushed and the item is damaged. This is an emergency, please act immediately!",Product Quality,damaged_on_arrival
+"Hey, I was told I am not eligibe for a refund. Thanks in advance for your help.",Refund,refund_denied
+"Good morning, the package was supposed to arrive days ago. This is unacceptable!",Delivery,late_delivery
+"Good morning, you took money from my account twice. I am extremely frustrated.",Billing,double_charge
+please send me the tax invoice for my order. This is unacceptable!,Billing,invoice_missing
+"Hey, shipping is taking far too long. This is an emergency, please act immediately!",Delivery,late_delivery
+I am writing becase I want to change my pasword but cannot. I need this fixed urgently.,Account,password_reset
+"Hi, I placed an order by mistake and need it cancelled. I have been a loyal customer for years.",Refund,cancel_order
+"To whom it may cocern, my package shws delivered but I never receved it. I am extremely frustrated.",Delivery,lost_package
+"Good mrning, my accunt was suspendd without explnation.",Account,account_locked
+I am writing because you took money from my account twice. Please look into it.,Billing,double_charge
+the refund was promised in 5 days but nothing arrived. Please look into it.,Refund,refund_delay
+"Hi team, plase cancel my subscription. Please repond asap.",Refund,cancel_order
+"Hey, sign in fils with an invalid credentials message. Kindly advise.",Technical Support,login_issue
+"Hi, the website throws an error every time I submit the form. Thaks in advance for your help.",Technical Support,app_crash
+I am writing because sign in fails with an invalid credentials message. I need this fixed urgently.,Technical Support,login_issue
+"To whom it may concern, my ordr contained someone else's items. This is an emergency, please act immediately!",Delivery,wrong_item
+the password reset link has expied. Please look into it.,Account,password_reset
+"To whom it may concern, I was charged twice for the same order. I am very disappointed.",Billing,double_charge
+"Hllo, sign in fails with an invalid credentials message. Kindly advise.",Technical Support,login_issue
+I am writing because the item does not match the description on your website. Please look into it.,Product Quality,not_as_described
+"I am writing because how do I cancel the purchase I just mae. This is an emergency, please act immediately!",Refund,cancel_order
+how can I update my pone number and address.,Account,update_details
+"Hey, your software crashes on startup. I have been a loyal customer for years.",Technical Support,app_crash
+"Dear support, my order has not arived yet and it is long overdue. Please respond asap.",Delivery,late_delivery
+"To whom it may concern, it broke after minimal use. This is an emerency, please act immediately!",Product Quality,defective_product
+"Hello, it broke after minimal use. Tanks in advance for your help.",Product Quality,defective_product
+"Dear support, access to my account is blocked. Please respond asap.",Account,account_locked
+"Dear support, extra fees were added to my bill withot any notice.",Billing,wrong_amount
+I am locked out after too many attempts.,Account,account_locked
+there is a duplicate charge on my bank statement. Pease respond asap.,Billing,double_charge
+"Hey, the device is defective and will not turn on. I need this fixed urgently.",Product Quality,defective_product
+"Good morning, shipping is taking far too long.",Delivery,late_delivery
+"Dear support, the qualiy is much lwer than advertisd. Kindly advise.",Product Quality,not_as_described
+"Hello, shipping is taking far too lng. I am very disappointed.",Delivery,late_delivery
+"Hey, the featres listd are missing from the product. I am extremely frustrated.",Product Quality,not_as_described
+I am witing because the size and colour delivered is not what I seected. Please respond asap.,Delivery,wrong_item
+"Good morning, my package shows delivered but I never received it.",Delivery,lost_package
+"Good morning, the total on my invoice does not match what I agreed to pay. Worst service ever.",Billing,wrong_amount
+"Good mornin, the application frezes and closes by itsef. This is an emergency, please act immediately!",Technical Support,app_crash
+"Good morning, the size and colour delivered is not what I selected. Wrst service ever.",Delivery,wrong_item
+"Hey, the item is faulty and keeps malfunctioning. Kindly advise.",Product Quality,defective_product
+tracking has not udated for days and my package is mssing. Plese respond aap.,Delivery,lost_package
+"Good morning, the refund was promised in 5 days but nothing arrived.",Refund,refund_delay
+"Good morning, you took mony from my acount tice. Please respond asa.",Billing,double_charge
+"To whom it may concrn, your softwae crashes on startup. I am very disappointed.",Technical Support,app_crash
+"Hi, the total on my ivoice does not match what I agreed to pay. Please respond asap.",Billing,wrong_amount
+"Good morning, I need a copy of my receipt but cannot find it. I need this fixed urgently.",Billing,invoice_missing
+"Hi team, the password reset link has expire. Kinly advise.",Account,password_reset
+I want to cancel my order immediately. I am extremely frustrated.,Refund,cancel_order
+I was overcharged on my bill. Can you help?,Billing,wrong_amount
+"Dear support, the login page keeps showing an error. Please look into it.",Technical Support,login_issue
+"To whom it may concern, shipping is taking far too long. I am extemely frustrated.",Delivery,late_delivery
+"Good moring, please cancel my subscription. Can you help?",Refund,cancel_order
+"Hello, shipping is taking far too long. Wort srvice ever.",Delivery,late_delivery
+the reset link does not work. I have been a loyal customer for years.,Account,password_reset
+you refused to refund me even thogh the item was faulty. Kindly advise.,Refund,refund_denied
+"Hi, the return was denied and I do not understad why. I am extremely frustrated.",Refund,refund_denied
+"Dear suppot, my refund has been pending for weeks. Can you help?",Refund,refund_delay
+please cancel my subscription. Thanks in advance for your help.,Refund,cancel_order
+"To whom it may concern, shiping is taking far too long. I have been a loyal customer for years.",Delivery,late_delivery
+"Hi, my account has been locked for no reason. This is an emergency, please act immediately!",Account,account_locked
+the item does not match the description on your website. Please look into it.,Product Quality,not_as_described
+"Good morning, the qualiy is much lower than advertised. I need this fixed urgently.",Product Quality,not_as_described
+"To whom it may concern, the amount charged is highr than the price shown. Please respond asap.",Billing,wrong_amount
+the application freezes and closes by itself. Kindly advise.,Technical Support,app_crash
+tracking has not updated for days and my pckage is missing. I am very disappointed.,Delivery,lost_package
+my refud request was rejected unfairly. Kindly advise.,Refund,refund_denied
+please send me the tax invoice for my orde. I need this fixed urgently.,Billing,invoice_missing
+"Hi team, you took money from my acount twice. I am extremely frustrated.",Billing,double_charge
+"Hi, the features listed are missing from the product.",Product Quality,not_as_described
+"Hey, the device is defective and will not turn on. I am very disappointed.",Product Quality,defective_product
+"Hey, the website throws an error every time I submit the form. Can you help?",Technical Support,app_crash
+"Hi team, I am still waiting for the money back from my rturn. Kindly advise.",Refund,refund_delay
+"Hey, you took money from my account twice.",Billing,double_charge
+"Hello, my refund has been pending for weeks.",Refund,refund_delay
+the quality is much lower than advertise. Thanks in advance for your help.,Product Quality,not_as_described
+"Dear support, my reund has been peding for weeks. This is an emergency, please act immediatly!",Refund,refund_delay
+"Hi team, my orer has not arrived yet and it is long overdue. Kindly advise.",Delivery,late_delivery
+I am locked out after too many attempts. Kindly advise.,Account,account_locked
+"Dear support, please correct the name on my profile. Can you help?",Account,update_details
+"Dear suppot, the parcel seems to be lost in transit. This is unacceptable!",Delivery,lost_package
+"Hi, the app keeps crshing when I open it. I am extremely frustrated.",Technical Support,app_crash
+"Hi, I want to cancel my ordr immediately. Worst serice ever.",Refund,cancel_order
+"Hello, sign in fails with an invalid credentials message. Can you help?",Technical Support,login_issue
+"To whom it may concern, the size and colour dlivered is not what I selected.",Delivery,wrong_item
+"To whom it may concern, I nevr received the invoice for my purchase. I need this fixed urgently.",Billing,invoice_missing
+"Hi, the app is extremely slow and laggy. Thanks in advance for your help.",Technical Support,slow_performance
+"Hello, I plaed an order by mistake and need it cancelled. Thanks in advance for your hep.",Refund,cancel_order
+"Hi team, the total on my invoice does not match what I agreed to pay. I am very disappointed.",Billing,wrong_amount
+"Helo, I want to cancel my order immediately. I am extremely frustrated.",Refund,cancel_order
+I am writing bcause my account has been locked for no reason. I am very disppointed.,Account,account_locked
+I am writing because the application freees and cloes by itself. I have been a loyal customer for years.,Technical Support,app_crash
+"Hello, pages take forever to load on your sit. I am extremely frusrated.",Technical Support,slow_performance
+please send me the tax invoice for my order. Can you help?,Billing,invoice_missing
+"To whom it may concern, the screen was shttered on delivery. Please look into it.",Product Quality,damaged_on_arrival
+please cancel my subcription. Please look into it.,Refund,cancel_order
+"Hi team, I want to change my password but canot. This is an emergency, please act immediately!",Account,password_reset
+I am writing because I returned the item but have not recived my refund. I have been a loyal customer for yeas.,Refund,refund_delay
+the total on my invoice does not match what I agreed to pay. Can you help?,Billing,wrong_amount
+I am still waiting for the money back from my return.,Refund,refund_delay
+I am writng because shipping is takng far too long. I am very disappointed.,Delivery,late_delivery
+it broke aftr minimal use. Please look into it.,Product Quality,defective_product
+"To whom it may concern, extra fees were added to my bill wthout any notice. I need this fixed urgently.",Billing,wrong_amount
+I am writing because please crrect the name on my profile. I am extremely frustrated.,Account,update_details
+"Good morning, the app is extremely slow and laggy.",Technical Support,slow_performance
+"Hello, my refund has been pending for weeks. Please respond asap.",Refund,refund_delay
+"To whom it may concern, my accont was suspnded without explanation. I am extremely frustrated.",Account,account_locked
+"Hi team, the rest link does not work. Please look into it.",Account,password_reset
+"the delivery is delayed by over a week. This is an emergenc, please act immediatey!",Delivery,late_delivery
+I want to change my passwod but cannot. I need this fixed urgently.,Account,password_reset
+I was told I am not eligible for a reund. Pease look into it.,Refund,refund_denied
+I am writing because my order contaied somene else's items. I need this fixed urgently.,Delivery,wrong_item
+"Hi team, the delivery is delayed by over a week. I have been a loyal customer for years.",Delivery,late_delivery
+the package arrived crused and the item is damaged.,Product Quality,damaged_on_arrival
+"To whom it may concern, the package was supposd to arrie days ago. I am extremely frustrated.",Delivery,late_delivery
+I am wrting because the reset link does not work.,Account,password_reset
+"Hello, the item came with cacks and scratches. I have been a loyal customer for years.",Product Quality,damaged_on_arrival
+"Hey, I returned the item but have not received my refund. Thanks in avance for your help.",Refund,refund_delay
+"Hi, I am locked out after too many attempts.",Account,account_locked
+"Hey, plese send me the tax invoice for my order. I need this fixed urgently.",Billing,invoice_missing
+"Dear suppor, the parcel sems to be lost in transit. I am very disappointed.",Delivery,lost_package
+"Good morning, my account has been locked for no reason. This is unacceptable!",Account,account_locked
+"Hi, I am stil waiting for the money back from my return. I am very disappointed.",Refund,refund_delay
+the item is faulty and keeps malfunctioning.,Product Quality,defective_product
+I need a copy of my receipt but cannot find it. Please respond asap.,Billing,invoice_missing
+"Hello, the system response time is terrible. I am very disappointed.",Technical Support,slow_performance
+"Hello, you took mony from my account twice. Please respond asp.",Billing,double_charge
+"Hell, the size and colour delivered is not what I selected. This is an emergency, plase act immediately!",Delivery,wrong_item
+my order contaied someone else's items. This is unacceptable!,Delivery,wrong_item
+"Hey, the total on my invoice does not mtch what I agreed to pay. I need this fixed urgently.",Billing,wrong_amount
+"Hi, I want to change my registered details. Please respond asap.",Account,update_details
+I am writing because your software crashes on startup. Kindly avise.,Technical Support,app_crash
+"Hello, the screen was shattered on delivery. I am extremely frustrated.",Product Quality,damaged_on_arrival
+"Hello, my refund request was rejected unfairly. Worst service evr.",Refund,refund_denied
+I am writing because please send me the tax invoice for my order. I have been a loyal cusomer for year.,Billing,invoice_missing
+"Hi, the amount chared is hiher than the price shown. Can you hep?",Billing,wrong_amount
+"Hi team, the prodct stopped workng after two days. Plase look into it.",Product Quality,defective_product
+"To whom it may concer, please cancel my subscription. I am extremely frustrated.",Refund,cancel_order
+"Good morning, I want to change my password but cannot. This is an emergency, please act immediately!",Account,password_reset
+"Helo, the application freezes and closes by itself. Kindly advise.",Technical Support,app_crash
+it broke after minimal use. I am extremely frustrated.,Product Quality,defective_product
+your software crashes on startup. I need this fixed urgently.,Technical Support,app_crash
+"Hey, I was overcarged on my bil. Thanks in avance for your help.",Billing,wrong_amount
+"Hey, the courier says deliverd but nothing is at my door. Kindly advise.",Delivery,lost_package
+"Hey, extra fees were added to my bill without any notice. This is an emergency, please act immediately!",Billing,wrong_amount
+you refused to refund me even though the item was faulty. This is unacceptable!,Refund,refund_denied
+"Good morning, my refund request was rejeted unfairly. Please look into it.",Refund,refund_denied
+"Good morning, access to my account is blocked. This is an emergency, please act immediately!",Account,account_locked
+"Hi team, the return was denied and I do not understand why. I am extremely frustrated.",Refund,refund_denied
+the parcel seems to be lost in tranit. Pleae respond asap.,Delivery,lost_package
+how do I cancel the purchase I just mde. Wrst service ever.,Refund,cancel_order
+I am writng because my card was billed two times for a single purchase. Please look into it.,Billing,double_charge
+my order contained someone ele's iems. Kindly advise.,Delivery,wrong_item
+"Hi, the size and clour deivered is not what I slected. I have been a loyal customer for years.",Delivery,wrong_item
+"Hello, the app keeps crashing when I open it. Please respond asap.",Technical Support,app_crash
+"Dear support, the delivery is delayed by over a week. Please respond aap.",Delivery,late_delivery
+I need to change my eail address on the account. I have been a loyal customer for years.,Account,update_details
+I am writing beause the verification code never arrives so I cannot sign in. I am extremely frustrated.,Technical Support,login_issue
+"Hi team, please send me the tax invoice for my order. Worst service ever.",Billing,invoice_missing
+"Hi tea, my card was billed two times for a single purchase. I need this fixed urgently.",Billing,double_charge
+"Hell, I was overcharged on my bill. Please look into it.",Billing,wrong_amount
+I am writing because I need a copy of my reeipt but cannot find it. I am extremely frustrated.,Billing,invoice_missing
+"Dear support, the website throws an error every time I submit the form. I am extremely frustrated.",Technical Support,app_crash
+"Good morning, the fatures listed are missing from the product. Can you hel?",Product Quality,not_as_described
+the product looks nothing like the pictures. I need this fixed urgently.,Product Quality,not_as_described
+"Hi team, my pckage shows delivered but I nevr received it. I am extremely frustrated.",Delivery,lost_package
+"Good morning, pages take forever to load on your site. This is unacceptable!",Technical Support,slow_performance
+"Hey, your software crashes on startup. I need this fixed urgently.",Technical Support,app_crash
+"Hey, my card was billed two times for a sinle purchase. I am very disappointed.",Billing,double_charge
+"Good morning, the verification code never arrives so I cannot sign in. This is unacceptable!",Technical Support,login_issue
+"Hey, the features listed are missing from the product. Please look into it.",Product Quality,not_as_described
+"Dear support, extra fees were added to my bill without any notice.",Billing,wrong_amount
+"Good morning, my package shows delivered but I never received it. This is unacceptable!",Delivery,lost_package
+"Hey, I was overcharged on my bill.",Billing,wrong_amount
+"Hi, I forgot my passwrd and the reset email is not coming.",Account,password_reset
+"Hell, I returned the item but have not received my refund. Thanks in advance for your help.",Refund,refund_delay
+"Hi team, I received the wrong item in my order. Can you help?",Delivery,wrong_item
+"To whom it may concern, I want to cancel my order immediately. Please respond asap.",Refund,cancel_order
+"Good morning, the password reset link has expired. I need this fixed urgntly.",Account,password_reset
+"Hello, I want to change my registered details. Please respond asap.",Account,update_details
+"Hi team, the package arrived crushed and the item is damaged. This is an emergecy, please act immediately!",Product Quality,damaged_on_arrival
+"Hi tea, I returned the item but have not received my refund. I am etremely frustrated.",Refund,refund_delay
+"Hi tam, please send me the tax invoice for my order.",Billing,invoice_missing
+"Hllo, my order contained someoe else's items.",Delivery,wrong_item
+the parcel seems to be lost in transit. This is unacceptable!,Delivery,lost_package
+"Hello, sign in fails with an invaid credntials message. I am very disappointed.",Technical Support,login_issue
+the item came with cracks and scratches. Thnks in advance for your help.,Product Quality,damaged_on_arrival
+"Hi team, the screen was shattered on delivery. Worst service eve.",Product Quality,damaged_on_arrival
+"To whom it may concern, you took moey from my acount twice. Kindly advise.",Billing,double_charge
+"Hi, I am still waiting for the mony back from my retun. I am exremely frustrated.",Refund,refund_delay
+"Hi team, the prodct was broken when I opened the box. Can you hep?",Product Quality,damaged_on_arrival
+the product was broken when I opned the box. This is unaceptable!,Product Quality,damaged_on_arrival
+I returned the item but have not received my refund. I am extemely frustated.,Refund,refund_delay
+"Good morning, the delivery is delyed by over a week. Kindly advise.",Delivery,late_delivery
+"To whom it may concern, I cannot log in to my account even with correct details.",Technical Support,login_issue
+"To whom it may concern, I am still waiting for the money back from my return. I am very disappointed.",Refund,refund_delay
+"Hi, I was told I am not eligible for a refund. Can you help?",Refund,refund_denied
+"Hey, I want to change my registered details. I am very disappointed.",Account,update_details
+I am writing because the poduct looks nothing like the pictres. This is unacceptable!,Product Quality,not_as_described
+"Dear support, the refund was promised in 5 days but nothing arrived. Please respond asap.",Refund,refund_delay
+"Hi, pages take forever to load on your site.",Technical Support,slow_performance
+"Hello, the verification code never arrives so I canot sign in. This is an emergency, plase act immediately!",Technical Support,login_issue
+I want to chnge my registered details. I need this fixed urgently.,Account,update_details
+"Hi tem, the rset link does not work. This is unacceptable!",Account,password_reset
+"To whom it may concern, I want to change my password but cannot. I need this fixed urgently.",Account,password_reset
+"Hi, I want to cancel my order immediately. I am very disappointed.",Refund,cancel_order
+the product loos nothing like the pictures.,Product Quality,not_as_described
+there is a duplicate charge on my bank statement.,Billing,double_charge
+"Hello, I want to cancel my order immediately. Worst srvice ever.",Refund,cancel_order
+"Dear support, sign in fails with an invalid credentials message. Can you help?",Technical Support,login_issue
+"Hi team, the website throws an error every time I sumit the form. This is unacceptable!",Technical Support,app_crash
+"I am writing becaue the total on my invoice does not match what I agred to pay. This is an emrgency, please act immdiately!",Billing,wrong_amount
+"Hi, tracking has not updated for days and my package is missing. This is an emergency, pease act immediately!",Delivery,lost_package
+"To whom it may concern, my order contained someone else's ites. I am extremely frustrated.",Delivery,wrong_item
+"Hi tam, the password reset link has expired.",Account,password_reset
+"To whom it may concern, you took money from my account twice. This is unacceptable!",Billing,double_charge
+"Hi tam, I am locked out after too many atempts.",Account,account_locked
+"Hello, the website throws an eror every time I submit the fom. Thanks in advance for your help.",Technical Support,app_crash
+"Hello, the package arrived crshed and the item is damaged. Kindly advise.",Product Quality,damaged_on_arrival
+"Hi, tracking has not updated for days and my package is missin. I am very disappointed.",Delivery,lost_package
+"Hi, the sstem response time is terrible. Can you help?",Technical Support,slow_performance
+eveything loads very slowly since the update.,Technical Support,slow_performance
+"Dear support, the parcel sems to be lost in transit. Please look into it.",Delivery,lost_package
+"Good morning, I neer recived the invoice for my purchase. I am very disappointed.",Billing,invoice_missing
+I received the wrong item in my order. Can you help?,Delivery,wrong_item
+"Hi team, my account was suspended without explanation. I need this fixed urgently.",Account,account_locked
+"To whom it may concern, please send me the tax invoice for my order. I have been a loyal customer for years.",Billing,invoice_missing
+"Hi, the delivery is delayed by over a week. Worst service ever.",Delivery,late_delivery
+"Hello, I rceived the wrong item in my order. Plese look into it.",Delivery,wrong_item
+"Hi team, the reurn was denied and I do not understand why. This is uncceptable!",Refund,refund_denied
+"Hi team, the verification code never arrives so I canot sign in.",Technical Support,login_issue
+the system response time is terrible.,Technical Support,slow_performance
+"Hi tem, the website throws an error every time I submit the form.",Technical Support,app_crash
+"Good morning, I was oercharged on my bil. Can you help?",Billing,wrong_amount
+"Hello, please send me the tax invoice for my order. Please respond asap.",Billing,invoice_missing
+"To whom it may concern, the qality is much lower than advertised. I need this fixed urgently.",Product Quality,not_as_described
+"Good morning, access to my account is bocked. This is an emergency, plese act immediately!",Account,account_locked
+I am writing because the product stopped working after two days.,Product Quality,defective_product
+"Hey, the size and colour delivered is not what I selected. Worst service ever.",Delivery,wrong_item
+"Hey, the product stopped working after two days. I am very disappointed.",Product Quality,defective_product
+"Good morning, I was told I am not eligible for a refund. Please look into it.",Refund,refund_denied
+"Hi, I was told I am not eligible for a refund. Please look into it.",Refund,refund_denied
+I was charged twice for the same orer. I need this fixed urgently.,Billing,double_charge
+"Good morning, trackig has not updated for days and my package is missing. I am extremely frstrated.",Delivery,lost_package
+"Hi tam, I was told I am not eligible for a refun. Plase look into it.",Refund,refund_denied
+"Hello, access to my account is blocked. Thanks in advance for your help.",Account,account_locked
+"Hello, the refud was proised in 5 days but nothig arrived.",Refund,refund_delay
+"Hello, the website throws an error every time I submit the form. I am extremely frustrated.",Technical Support,app_crash
+"Hey, the size and colour delivered is not what I selected. Please look into it.",Delivery,wrong_item
+the package arrived cushed and the item is damaged. Pleae respond asap.,Product Quality,damaged_on_arrival
+"Hi, I want to canel my order immediately. I need this fixed urently.",Refund,cancel_order
+the product looks nothing like the pictures. I need this fixd urgently.,Product Quality,not_as_described
+"I am writing beause the app is extremely slow and laggy. This is an emergency, please act immediately!",Technical Support,slow_performance
+"Hi, the device is defective and will not turn on. I need this fixed urgntly.",Product Quality,defective_product
+"To whom it may concern, I want to chane my registered details. Please look into it.",Account,update_details
+the reund was promised in 5 days but nothing arrived.,Refund,refund_delay
+"Hi team, my package shows delivered but I never received it. I am very disappointed.",Delivery,lost_package
+please correct the name on my profile. Please look into it.,Account,update_details
+the parcel seems to be lost in transit.,Delivery,lost_package
+I am writing because sign in fails with an invalid credentials message. Can you help?,Technical Support,login_issue
+"Hi team, how do I cancel the purchase I just mae. Wost service eve.",Refund,cancel_order
+"plase send me the tax invoice for my order. This is an emergency, please act immediately!",Billing,invoice_missing
+"Hello, the product was broken when I opened the box. I have been a loyal customer for yers.",Product Quality,damaged_on_arrival
+your software crashes on startup. This is unaceptable!,Technical Support,app_crash
+"To whom it may concern, you sent me a differnt product than what I ordered.",Delivery,wrong_item
+I was overcharged on my bill. I need this fixed urgently.,Billing,wrong_amount
+"Hey, I received the wrong item in my order. Please respond asap.",Delivery,wrong_item
+"Dear support, it broke after minimal use. Can you hep?",Product Quality,defective_product
+"Dear support, etra fees were added to my bill without any notic. I need this fied urgently.",Billing,wrong_amount
+"Hell, I receied the wrong item in my orde. I am extremely frustrated.",Delivery,wrong_item
+I am writing because the item is faulty and keeps malfunctioning. This is unacceptable!,Product Quality,defective_product
+"Good morning, I want to change my pasword but canno. Please look into it.",Account,password_reset
+"Hello, the item came with cracks and scratches. Can you help?",Product Quality,damaged_on_arrival
+"To whom it may concrn, the size and colour delivered is not what I selected. Please look into it.",Delivery,wrong_item
+I am writing because my order has not arrived yet and it is long overdue. Please look into it.,Delivery,late_delivery
+"Hey, I cannot log in to my account even with correct details. Plese look into it.",Technical Support,login_issue
+plase correct the name on my profile. Kindly advise.,Account,update_details
+you refused to refund me even though the item was faulty.,Refund,refund_denied
+"Hey, the pakage was supposed to arrive days ago. I am very disappinted.",Delivery,late_delivery
+"Dear spport, the reet link does not work. I am extremely frustrated.",Account,password_reset
+"Dear supprt, you refused to refund me even though the item was faulty. This is an emergency, please act immediately!",Refund,refund_denied
+"Hi, my refund has been pending for weeks. This is unacceptable!",Refund,refund_delay
+my accout was suspended without explanation. Kindly advise.,Account,account_locked
+"Hi, the retun was denied and I do not understand why. This is an emergency, please act immedately!",Refund,refund_denied
+I returned the item but have not received my refund. Can you help?,Refund,refund_delay
+"To whom it may concern, you sent me a different prduct than what I ordered. Worst service eve.",Delivery,wrong_item
+"Hi team, it broke after minimal use. Worst sevice ever.",Product Quality,defective_product
+"Hello, the parcel seems to be lost in transit.",Delivery,lost_package
+accss to my account is blocked. I am extremely frustrated.,Account,account_locked
+"Hello, the product looks nothing like the pictures. This is an emrgency, please act immediately!",Product Quality,not_as_described
+"Hi, the verfication code never arrives so I cannot sign in. Please respond asap.",Technical Support,login_issue
+"Hey, the features listed are missing from the product. I have been a loyal customer for years.",Product Quality,not_as_described
+"Dear spport, you took money from my accunt twice. Pease respond asap.",Billing,double_charge
+"Dear support, you refused to refund me even though the item was faulty. Please respond aap.",Refund,refund_denied
+"Hi, the product was broken when I opened the box. Worst service ever.",Product Quality,damaged_on_arrival
+"Hi team, the courier says delivered but nothing is at my door. Tanks in advance for your help.",Delivery,lost_package
+"Hi team, the verification code neer arrives so I cannot sign in. This is unacceptable!",Technical Support,login_issue
+I am wrting because the amount charged is higher than the price shown.,Billing,wrong_amount
+the refund was promised in 5 days but nothng arrived. Can you help?,Refund,refund_delay
+the login page keeps showing an error. Can you help?,Technical Support,login_issue
+plese send me the tax invoice for my order. Plase look into it.,Billing,invoice_missing
+"Hey, everything loads very slowly since the updat.",Technical Support,slow_performance
+"Good morning, you refused to refund me even though the item was faulty. This is unacceptable!",Refund,refund_denied
+"Hey, the product was broken when I opened the box. I need this fixed urgently.",Product Quality,damaged_on_arrival
+"Hi team, the quality is much lower than advertised. Can you help?",Product Quality,not_as_described
+the product was broken when I opened the box. I have been a loyal customer for years.,Product Quality,damaged_on_arrival
+I never recived the invoice for my purchase. Can you help?,Billing,invoice_missing
+"Dear support, the delivery is delayed by over a week. Please respond asap.",Delivery,late_delivery
+"Dear support, the item does not math the description on your website. I am very dsappointed.",Product Quality,not_as_described
+"Hey, it broke after minimal use. I am etremely frustrated.",Product Quality,defective_product
+"Good morning, the return was denied and I do not understand why.",Refund,refund_denied
+"Dear support, I am still waitig for the money back from my return. I have been a loyal customer for yars.",Refund,refund_delay
+I am writing because the product stopped working after two days. Thanks in advance for your help.,Product Quality,defective_product
+"Hi, the size and colour delivered is not what I selected.",Delivery,wrong_item
+"Hello, sign in fails with an invalid creentials mesage. Wost service ever.",Technical Support,login_issue
+"Hi team, I am locked out after too many attempts. This is unacceptable!",Account,account_locked
+I was overcharged on my bill. This is unacceptable!,Billing,wrong_amount
+the product was broken when I opened the box. Thanks in advance for your help.,Product Quality,damaged_on_arrival
+the app kees crashing when I open it. I have been a loyal customer for years.,Technical Support,app_crash
+"Hi, the item is falty and keeps malfunctioning. Please respond asap.",Product Quality,defective_product
+the product stopped working after two days. Please look into it.,Product Quality,defective_product
+"Hey, the courier says delivered but nothing is at my dor. I need this fixed urgently.",Delivery,lost_package
+"Hi team, the refund was promised in 5 days but nothing arrived. Please respond asap.",Refund,refund_delay
+my account has been loked for no reason. Please respond asap.,Account,account_locked
+"the parcel seems to be lost in transit. This is an emergency, please act immediately!",Delivery,lost_package
+"Hey, sign in fails with an invalid credentials message. I have been a loyal customer for years.",Technical Support,login_issue
+everythig loads very sowly since the update. Can you help?,Technical Support,slow_performance
+my card was billed two tims for a sigle purchase. I am very disappointed.,Billing,double_charge
+"Hello, access to my account is blocked. I am exremely frustrated.",Account,account_locked
+I received the wrong item in my order. I need this fixed urgently.,Delivery,wrong_item
+"Hey, I received the wrong item in my oder.",Delivery,wrong_item
+"Good mornng, my account was suspended without explanation. I am extremely frustrated.",Account,account_locked
+the invoice for last month is missing from my accunt. Worst service ever.,Billing,invoice_missing
+"Hi tea, the password reset link has expired. Worst service ever.",Account,password_reset
+"Dear spport, the product was broken when I opened the box. Kindly advise.",Product Quality,damaged_on_arrival
+"Dear suport, the amount charged is higher than the price shown. I am very disappointed.",Billing,wrong_amount
+I am writing because I cannot log in to my account even with corect dtails.,Technical Support,login_issue
+"Hello, the loin page keeps showing an error. I have been a loyal cusomer for yars.",Technical Support,login_issue
+my account has been locked for no reason.,Account,account_locked
+"Hey, the delivery is delayed by over a week. Please respond asap.",Delivery,late_delivery
+"Hi team, the system respnse time is terrible. Kindly advise.",Technical Support,slow_performance
+"To whom it may concern, you sent me a different product than what I ordered. This is an emergency, please act immediately!",Delivery,wrong_item
+"To whom it may concern, the screen was shattered on delivery. Thanks in advance for your help.",Product Quality,damaged_on_arrival
+"Good morning, the screen was shattered on delivry. Thanks in advance for your help.",Product Quality,damaged_on_arrival
+"Hi, there is a duplicate charge on my bank statement. This is an emergency, please act immediately!",Billing,double_charge
+"Dear support, I was charged twie for the same order. Worst service ever.",Billing,double_charge
+the reset link does not work. This is unacceptable!,Account,password_reset
+"Hi team, shipping is takig far too long. I am extemely frustrated.",Delivery,late_delivery
+I placed an ordr by mistake and need it cancelled.,Refund,cancel_order
+how can I update my phone number and adress. I am very disappointed.,Account,update_details
+"Hi team, my account was sspended withot explanatio. I need this fixed urgently.",Account,account_locked
+"Hi team, my account has been locked for no reason. This is unacceptable!",Account,account_locked
+I am writing because please correct the name on my profile. I have been a loyal cusomer for years.,Account,update_details
+"Hi team, the size and colour deliverd is not what I selected. Please look into it.",Delivery,wrong_item
+"Hey, I am still waiting for the money back from my return. Wrst service ever.",Refund,refund_delay
+my refund request was rejected unfairl. Worst service eve.,Refund,refund_denied
+how can I update my phone number and address. Kindly advse.,Account,update_details
+"Hello, I placed an order by mistake and need it cacelled. I am extremely frustrated.",Refund,cancel_order
+"Hello, please cancel my subscription. I am very disappointed.",Refund,cancel_order
+"Dear support, I want to change my password but canot. This is an emergency, please act immediately!",Account,password_reset
+"Hello, there is a duplicate charge on my bank statement. Thanks in advance for your help.",Billing,double_charge
+"Hi, the screen was shattered on delivery.",Product Quality,damaged_on_arrival
+"Dear support, my package shows delivered but I nevr received it. This is an emergency, please act immediately!",Delivery,lost_package
+"Hello, the prodct stopped working after two days.",Product Quality,defective_product
+"Dear suppot, how can I update my pone number and address. Please look into it.",Account,update_details
+I forgot my password and the reset email is not coming. Worst servce ever.,Account,password_reset
+"Dear support, please cancel my subscription.",Refund,cancel_order
+I am writing because I placed an order by mistake and need it cancelled.,Refund,cancel_order
+"Good morning, the return was denied and I do not undestand why. Worst service eve.",Refund,refund_denied
+"Good mornig, the total on my invoice does not match what I agreed to pay. I am very disappointed.",Billing,wrong_amount
+I never received the invoice for my purchase. Worst service ever.,Billing,invoice_missing
+"To whom it may conern, the courier says delivered but nothing is at my door. I have been a loyal customer for yeas.",Delivery,lost_package
+I returned the item but have not received my refund. Thnks in advance for your help.,Refund,refund_delay
+"Dear support, the login page keeps showing an error. This is an emergency, please act immediately!",Technical Support,login_issue
+"Hey, shipping is taking far too long.",Delivery,late_delivery
+"To whom it may concern, my package shows delivered but I never received it. Kindly advise.",Delivery,lost_package
+I was told I am not eligible for a refund. I need this fixd urgently.,Refund,refund_denied
+"Hi team, the system response time is terrible. I need this fixd ugently.",Technical Support,slow_performance
+"Hey, the featurs listed are missing from the product. Please look into it.",Product Quality,not_as_described
+the refund was promised in 5 days but nothing arrived. Can you help?,Refund,refund_delay
+"To whom it may concern, plase send me the tax invoice for my order. Thanks in advance for your hel.",Billing,invoice_missing
+I am writing becuse the corier says delivered but nothing is at my door.,Delivery,lost_package
+"To whom it may concern, the invoice for last month is missing from my account. I am very disappointed.",Billing,invoice_missing
+"Hi, I forgot my password and the reset email is not coming. Can you help?",Account,password_reset
+I am writing becaue the features listed are missing from the product. Kindly advise.,Product Quality,not_as_described
+"Hi, I want to canel my order immediately. I need this fixed urgently.",Refund,cancel_order
+"Hello, the reset link does not work. Please respond asap.",Account,password_reset
+"Hi team, the package arrived crushed and the item is damaged. I am very disappointed.",Product Quality,damaged_on_arrival
+the total on my invoice does not match what I agreed to pay. This is unacceptable!,Billing,wrong_amount
+"Hello, the parel seems to be lost in transit.",Delivery,lost_package
+"Hi, the invoice for last month is mising from my account. Please look into it.",Billing,invoice_missing
+I want to change my registered details. I have been a loyal customer for years.,Account,update_details
+"Hey, the ttal on my invoice does not match what I areed to pay. I am very disappointed.",Billing,wrong_amount
+"Hi team, the reset link does not work. Can you help?",Account,password_reset
+I am writing bcause my account was suspended witout explanation. Thanks in advance for your help.,Account,account_locked
+how do I cancel the purchase I just made. I have been a loyal cstomer for years.,Refund,cancel_order
+"Hi team, the amunt charged is higher than the prce shown. This is unacceptble!",Billing,wrong_amount
+"Hi team, you sent me a different product than what I ordered. Kindly advise.",Delivery,wrong_item
+"Dear support, sign in fails with an invalid credentials message. I am very disappointed.",Technical Support,login_issue
+"Hey, the item came with cracks and scratches. I need this fxed urgntly.",Product Quality,damaged_on_arrival
+I am writing because everything loads very slowly since the update. This is unacceptable!,Technical Support,slow_performance
+"Dear support, the size and colur delivered is not what I selected. I am extremely frustrated.",Delivery,wrong_item
+"To whom it may concern, there is a duplicate charge on my bank statement. Please respond asap.",Billing,double_charge
+"Hi tam, I want to cancel my ordr immediately. I am extremely frustrated.",Refund,cancel_order
+"Hey, I am locked out after too many attempts. Thanks in advance for your help.",Account,account_locked
+"Good morning, the package arrved crushed and the item is damaged. This is unacceptable!",Product Quality,damaged_on_arrival
+"Hello, my account has been locked for no reason. Kindly avise.",Account,account_locked
+I am writing because my account has been locked for no reaon. Pease look into it.,Account,account_locked
+"Hi team, please send me the tax invoice for my order. Kidly advise.",Billing,invoice_missing
+"Hey, I need to change my email address on the account. I need this fixed urgently.",Account,update_details
+the return was dened and I do not understand why. Thanks in advance for your help.,Refund,refund_denied
+"To whom it may concern, I returned the item but have not received my refund. Can you help?",Refund,refund_delay
+I was charged twice for the same order. I am very disappointed.,Billing,double_charge
+I am writing because the login page keeps showing an error. I am etremely frustraed.,Technical Support,login_issue
+"Hi, shipping is taking far too long. Please look into it.",Delivery,late_delivery
+"Hi team, my refund request was rejected unfairly. Worst servie ever.",Refund,refund_denied
+"To whom it may concern, the total on my invoice does not math what I agreed to pay. Kindly advise.",Billing,wrong_amount
+"Good morning, the device is defectve and will not turn on. This is unacceptable!",Product Quality,defective_product
+"Hi, the return was denied and I do not understand why. I need this fied urently.",Refund,refund_denied
+"Hi team, I was overcharged on my bill. I am extremely frustrated.",Billing,wrong_amount
+"Dear suppot, the prouct looks nothing like the pictures. I am extremely frustrated.",Product Quality,not_as_described
+"Hey, I want to change my registered details.",Account,update_details
+"Hey, the reurn was denied and I do not undestand why. I have been a loyal customer for years.",Refund,refund_denied
+"Good mrning, I placed an order by mistake and need it cancelled. Please respond asa.",Refund,cancel_order
+I received the wrog item in my order. Thans in advance for your help.,Delivery,wrong_item
+"Hi, the quality is much lower than avertised. This is an emergency, please act immediately!",Product Quality,not_as_described
+"Hi, how can I updte my phone number and address. Thanks in advance for your hlp.",Account,update_details
+"Good morning, the product stoppd working after two days.",Product Quality,defective_product
+"To whom it may concrn, access to my account is blocked.",Account,account_locked
+access to my account is blocked.,Account,account_locked
+"Hello, I received the wrong item in my order. I am very disappoined.",Delivery,wrong_item
+I am writing because the aount charged is higher than the prie shown. Please look into it.,Billing,wrong_amount
+"Hi, the total on my invoice does not match what I areed to pay. I am very disappointed.",Billing,wrong_amount
+"Hey, tracking has not updaed for days and my pckage is missing. Kindly advise.",Delivery,lost_package
+"Hello, you took money from my account tice. This is unacceptale!",Billing,double_charge
+"Hi, I want to change my registered details. Worst service ever.",Account,update_details
+I am writing because my card was biled two times for a single purchase. I need this fixed urgently.,Billing,double_charge
+the device is defective and will not turn on. Worst service ever.,Product Quality,defective_product
+"Good morning, the device is dfective and will not turn on. Kindly advise.",Product Quality,defective_product
+"Good morning, I was chrged twice for the same order. Can you help?",Billing,double_charge
+"Hi, the password reset link has expired. I have been a loyal customer for years.",Account,password_reset
+"Dear support, the package was supposed to arrive days ago. I have been a loyal customer for years.",Delivery,late_delivery
+"To whom it may concern, the features listed are missing from the product. I have been a loyal customer for years.",Product Quality,not_as_described
+"Hi team, everything loads very slowly since the update. I am very disappointed.",Technical Support,slow_performance
+"To whom it may concern, the fatures listed are missing from the prouct. Can you help?",Product Quality,not_as_described
+"Good morning, please corrct the name on my profie. Please look into it.",Account,update_details
+"Hell, the total on my invoice does not match what I agreed to pay. I am extrmely frustrated.",Billing,wrong_amount
+"Hello, the device is defective and will not turn on. I need this fixed urgently.",Product Quality,defective_product
+I am writing because the login page keeps showing an error. Wrst service ever.,Technical Support,login_issue
+"Hi team, how can I updte my phne number and address. I need this fixed urgently.",Account,update_details
+"Hello, the website throws an error every time I sumit the form. I am very disappointd.",Technical Support,app_crash
+"Dear support, the webste throws an error every time I submit the form. I am extremely frustrated.",Technical Support,app_crash
+"Hi team, my package shows delivered but I never received it. I am extremely frustrated.",Delivery,lost_package
+"Hi, the application freezes and closes by itself. Can you help?",Technical Support,app_crash
+I never received the invoice for my purchase.,Billing,invoice_missing
+I am writing because the item came with crcks and scratches. Please look into it.,Product Quality,damaged_on_arrival
+I am writing beause my refund request was rejcted unfairly. Kindly advise.,Refund,refund_denied
+"Hi, I returned the item but have not received my refund. This is unacceptable!",Refund,refund_delay
+the application freezes and closes by itself. This is unacceptable!,Technical Support,app_crash
+"Hello, the app is extremely slow and laggy.",Technical Support,slow_performance
+"To whom it may concern, the system response time is terrible. Kindly advise.",Technical Support,slow_performance
+"Hey, it brke after miimal use. I am very disappointed.",Product Quality,defective_product
+"Good morning, your software crashes on startup. This is unacceptable!",Technical Support,app_crash
+I received the wrng item in my order. Please respond aap.,Delivery,wrong_item
+I am writng becase the quality is much lower than advertised. I am extremely frstrated.,Product Quality,not_as_described
+"Hello, the app keeps crashing when I open it. I am extrmely frustrated.",Technical Support,app_crash
+I want to chage my registered details.,Account,update_details
+the app keeps crashing when I open it. This is unaccepable!,Technical Support,app_crash
+"Hello, I am still waiting for the mney back from my return. I am very disappointed.",Refund,refund_delay
+the return was denied and I do not understand why. I am very disappointed.,Refund,refund_denied
+"Dear support, the login page keeps showing an error. This is an emergency, pease act immediately!",Technical Support,login_issue
+"Dear support, the webite throws an error every time I submit the form. I have been a loyal customer for years.",Technical Support,app_crash
+there is a duplcate charge on my bank statemnt. Worst service ever.,Billing,double_charge
+"Dear support, extra fees were added to my bill without any notice. Wrst service ever.",Billing,wrong_amount
+I am writing because the product loks nothing like the pictures. Kindly advise.,Product Quality,not_as_described
+"Hey, the product was boken when I opened the box. Kindly advise.",Product Quality,damaged_on_arrival
+"Hey, the product looks nothing like the pictures. I am very disappointed.",Product Quality,not_as_described
+"I want to cancl my order immediately. This is an emergency, pleae act immediately!",Refund,cancel_order
+"the device is defecive and will not turn on. This is an eergency, please act immediately!",Product Quality,defective_product
+I am writig because I was overchared on my bil.,Billing,wrong_amount
+"Dear support, the package arrived crushed and the item is damaged. This is unacceptable!",Product Quality,damaged_on_arrival
+"Dear support, the product looks nothing like the pictures. Thanks in advance for your help.",Product Quality,not_as_described
+"Hi team, the toal on my invoice does not match what I agreed to pay. This is unacceptable!",Billing,wrong_amount
+"Dear support, the parcel sems to be lost in transit. I am extremely frustrated.",Delivery,lost_package
+"Hey, the return was deied and I do not understand why. Worst service ever.",Refund,refund_denied
+I was told I am not eliible for a refund. Can you help?,Refund,refund_denied
+"Hey, the item does not match the desription on your website. Kndly advise.",Product Quality,not_as_described
+please send me the tax invoice for my order. Pleae look into it.,Billing,invoice_missing
+"To whom it may concern, my refund request was rejected unfairly. Worst service ever.",Refund,refund_denied
+"Hey, pages take forever to load on your ste. I need this fixed urgenly.",Technical Support,slow_performance
+my order has not arrived yet and it is long overdue. Thanks in advace for your help.,Delivery,late_delivery
+"Hi, plese correct the name on my profile.",Account,update_details
+"Hi, the system response time is terrible. Plese look into it.",Technical Support,slow_performance
+"Dear support, your software crashes on startup. I need this fixed urgntly.",Technical Support,app_crash
+the package was supposed to arrie days ago. I need this fixed urgently.,Delivery,late_delivery
+I am witing because the app keeps crasing when I open it. I have been a loyal customer for years.,Technical Support,app_crash
+"Dear support, the amount charged is higher than the price shown. Worst service ever.",Billing,wrong_amount
+"Hello, my acount was suspended without explantion. Can you help?",Account,account_locked
+"Hllo, everyhing loads very slowly since the update. Kindly advise.",Technical Support,slow_performance
+"Good mornng, the parcel seems to be lost in transit. I have been a loyal customer for years.",Delivery,lost_package
+"Good morning, there is a duplicate charge on my bank statement.",Billing,double_charge
+"Good morning, how do I cancel the purchase I just made. I am extremely frustrated.",Refund,cancel_order
+the parcel seems to be lost in transit. I have been a loyal customer for yars.,Delivery,lost_package
+"Hey, I was charged twice for the same order. This is unacceptable!",Billing,double_charge
+"Good mornig, the application freezes and closes by itself. I am very disappointed.",Technical Support,app_crash
+I never received the invoice for my purchase. I need this fixed urgenly.,Billing,invoice_missing
+"Hello, I am still wating for the money back from my return. I am extremely frustrated.",Refund,refund_delay
+"the reset link does not work. This is an emergency, please act immediately!",Account,password_reset
+"Dear suppor, the package arrived crushed and the item is damaged. I am extremely frustrate.",Product Quality,damaged_on_arrival
+"Hey, the product was broken when I oened the box.",Product Quality,damaged_on_arrival
+"To whom it may concern, I was told I am not eligible for a refund. I am very disappointed.",Refund,refund_denied
+"Hey, it broke after minimal use.",Product Quality,defective_product
+the scren was shattered on delivery. I have been a loyal customer for years.,Product Quality,damaged_on_arrival
+"To whom it may concern, sign in fails with an invalid credentials mesage. I have been a loyal customer for years.",Technical Support,login_issue
+"Hi team, the app keps crashing when I open it. Please look into it.",Technical Support,app_crash
+"Hey, the size and colour delivered is not what I selected. I am very disappointed.",Delivery,wrong_item
+the item does not match the description on your website. Plase look into it.,Product Quality,not_as_described
+"Good morning, how can I update my phone number and address. Wost service ever.",Account,update_details
+"Hi team, I am loced out after too many attempts. This is an emergency, please act immediately!",Account,account_locked
+the package was supposed to arrive days ago.,Delivery,late_delivery
+"Hi team, my card was billed two times for a single purchase. Kindly advise.",Billing,double_charge
+"Good morning, the delivery is delayed by over a week. Thanks in advance for your help.",Delivery,late_delivery
+"the website throws an error every time I submit the form. This is an emergency, please act immediately!",Technical Support,app_crash
+I am writing becaue please cancel my subscription. Worst service ever.,Refund,cancel_order
+I am writing because there is a duplicate charge on my bank statement. I am extreely frustrated.,Billing,double_charge
+you sent me a different product than what I ordered. Can you help?,Delivery,wrong_item
+"Dear suport, the app is extremely slow and laggy. This is unacceptable!",Technical Support,slow_performance
+I am writing because I received the wrng item in my order. Thanks in advance for your help.,Delivery,wrong_item
+I was told I am not eligible for a refund. Tanks in advance for your help.,Refund,refund_denied
+"Hey, I need a copy of my receipt but cnnot find it. Wost service ever.",Billing,invoice_missing
+"Hello, the system response time is terrible. Thanks in adance for your help.",Technical Support,slow_performance
+"I am writing because I need a copy of my receipt but cannot find it. This is an emergency, plase act immediately!",Billing,invoice_missing
+I want to change my registered details. Worst service ever.,Account,update_details
+"Hello, I placed an order by mstake and need it cancelled. Please respond asap.",Refund,cancel_order
+"To whom it may concern, I want to chane my password but cannot. I need this fixd urgently.",Account,password_reset
+"To whom it may concern, my refund request was rejeted ufairly. Worst service ever.",Refund,refund_denied
+"I am writing because the size and colour delivered is not what I seleted. This is an emergency, please act immediately!",Delivery,wrong_item
+I am writing because my order has not arrived yet and it is long overdue. I have been a loyal cusomer for years.,Delivery,late_delivery
+"I want to change my registered details. This is an emergency, plase act immediately!",Account,update_details
+"Hi team, I was told I am not eligible for a refund. Please resond asap.",Refund,refund_denied
+I received the wrong item in my order. Kindly advis.,Delivery,wrong_item
+"Hi, you refused to refund me even though the item was faulty.",Refund,refund_denied
+I am writing because the delivery is delayed by over a week.,Delivery,late_delivery
+the product was broken when I opened the box. I am very disappointed.,Product Quality,damaged_on_arrival
+"Hey, the login page keeps showing an error.",Technical Support,login_issue
+"Hi team, how can I update my phone number and address. This is unacceptable!",Account,update_details
+"Good morning, you refused to refund me even thogh the item was faulty. Kindly advie.",Refund,refund_denied
+"Good morning, you sent me a different product than what I ordered. I need this fixed urgently.",Delivery,wrong_item
+my order contained someone else's item. Please respond aap.,Delivery,wrong_item
+"Good morning, the return was denied and I do not undestand why. Thanks in advance for your help.",Refund,refund_denied
+"Dear support, the package was supposed to arrive days ago. I am very disapponted.",Delivery,late_delivery
+"Good morning, my card was billed two times for a single purhase. I have been a loyal customer for years.",Billing,double_charge
+"Hi, extra fees were added to my bill without any notice. I have been a lyal customer for years.",Billing,wrong_amount
+I am writing because I need to change my email address on the accunt.,Account,update_details
+"the return was denied and I do not understand why. This is an emergency, please act immediately!",Refund,refund_denied
+"Good morning, I returned the item but have not rceived my refund. I am extremely frustrated.",Refund,refund_delay
+I cannot log in to my account even with correct details. Pleae look into it.,Technical Support,login_issue
+"Hey, plese cancel my suscription. I have been a loyal customer for years.",Refund,cancel_order
+I am writing becuse pages take forever to load on your site.,Technical Support,slow_performance
+"Hi team, I forgot my password and the reset email is not comng.",Account,password_reset
+"To whom it may concern, how do I cancel the purchase I just made. I am extremely frustrated.",Refund,cancel_order
+"Hi team, I am stil waiting for the money back from my retun. I am very disappointe.",Refund,refund_delay
+I am witing becase I want to change my password but cannot. Thanks in advance for your help.,Account,password_reset
+"Helo, the courier says delivered but nothing is at my door.",Delivery,lost_package
+"Hey, how do I cancel the purchase I just made. This is unacceptable!",Refund,cancel_order
+"Dear spport, please send me the tax invoice for my order. I am extremely frustrted.",Billing,invoice_missing
+"Hey, I need to chnge my email address on the account. This is unacceptable!",Account,update_details
+the product looks nothing like the pictures. Please look into it.,Product Quality,not_as_described
+"Hey, you sent me a different prodct than what I ordered. Please look into it.",Delivery,wrong_item
+your software crashes on startup. Kindly advise.,Technical Support,app_crash
+"my order has not arrived yet and it is long overdue. This is an emergency, please act immediately!",Delivery,late_delivery
+I am writing because the device is deective and will not turn on.,Product Quality,defective_product
+"Good morning, the application freezes and closs by itself. This is unacceptable!",Technical Support,app_crash
+"Hey, the product was broken when I opened the box. I am very disappointed.",Product Quality,damaged_on_arrival
+"Good morning, I am still waiting for the money back from my return. I am very disappointed.",Refund,refund_delay
+I am writing because the package arrived crushed and the item is damaged. I have been a loyl customer for yars.,Product Quality,damaged_on_arrival
+"Hi team, exta fees were added to my bill without any notice. Please respond asap.",Billing,wrong_amount
+"Dear support, the screen was shattered on delivery.",Product Quality,damaged_on_arrival
+the return was denied and I do not understand why. Can you help?,Refund,refund_denied
+"Good morning, the device is defective and will not turn on. This is unacceptable!",Product Quality,defective_product
+"Hi, you took money from my account twice.",Billing,double_charge
+"Hey, sign in fails with an invalid credentias messag. Please respond asap.",Technical Support,login_issue
+"Hello, I forgot my password and the reset email is not coming. I am extremely frustrate.",Account,password_reset
+"Dear support, the item is faulty and keeps malfunctioning. I need this fixed urgently.",Product Quality,defective_product
+"Good morning, I placed an order by mistake and need it cancelled. I need this fixed urgently.",Refund,cancel_order
+"Hello, the amount chaged is higher than the price shown. This is unacceptable!",Billing,wrong_amount
+I am locked out afer too many attempts. Kindly advise.,Account,account_locked
+"Hello, the screen was shattered on delivery.",Product Quality,damaged_on_arrival
+"the system response time is terrible. This is an emergency, please act immeditely!",Technical Support,slow_performance
+I am writng because the app keeps crasing when I open it. I need this fixed urgently.,Technical Support,app_crash
+"Hi tea, the product was broken when I opned the box. I need this fixed urgently.",Product Quality,damaged_on_arrival
+"Hllo, sign in fails with an invalid credentials message. Can you help?",Technical Support,login_issue
+"To whom it may concern, the product looks nothing like the pictures. This is unacceptable!",Product Quality,not_as_described
+"Hi tea, my ordr has not arrived yet and it is long overdue. Kindly advie.",Delivery,late_delivery
+the packge was supposed to arrive days ago. Please look into it.,Delivery,late_delivery
+"Hello, you rfused to rfund me even though the item was faulty. Please respond asap.",Refund,refund_denied
+"Hey, the courier says delivered but nothing is at my door. I am extremely frustrated.",Delivery,lost_package
+"Good morning, plase correct the name on my profile. Please look into it.",Account,update_details
+"Dear support, I was told I am not eligible for a refund. Thnks in advance for your help.",Refund,refund_denied
+"Hi team, I want to cancel my order immediatey. Thanks in advance for your help.",Refund,cancel_order
+"Good morning, the package arrived crushed and the item is damaged.",Product Quality,damaged_on_arrival
+I am writing because the item came with cracks and scratches.,Product Quality,damaged_on_arrival
+I am writing because thre is a dplicate charge on my bank satement. I am extremely frustrated.,Billing,double_charge
+"Good morning, the amount charged is higher than the price shown. I am extremely frustrated.",Billing,wrong_amount
+I am writing because I never received the invoice for my purchase. Can you help?,Billing,invoice_missing
+"Hi, how do I cancel the purchase I just mde.",Refund,cancel_order
+"Good morning, the courier says delivered but nothing is at my doo. Can you help?",Delivery,lost_package
+"Hi team, I want to change my password but cannot. I am very disappointed.",Account,password_reset
+"To whom it may concern, the product stoped workng after two days.",Product Quality,defective_product
+my refund request was rejected unfairly. This is unacceptable!,Refund,refund_denied
+"Hi tam, the reset link does not work. I am very disappointed.",Account,password_reset
+"Dear support, the login page keeps showing an error. Worst service ever.",Technical Support,login_issue
+"To whom it may conern, my account has been locked for no reason. Please repond asap.",Account,account_locked
+"Hi team, the screen was shattered on delivery. This is unacceptable!",Product Quality,damaged_on_arrival
+"Hi, my order contained smeone else's items. I am extremely frustrated.",Delivery,wrong_item
+"Good morning, your software crashes on startup. I need this fixed urgently.",Technical Support,app_crash
+"Good morning, the screen was shattered on delivery. Kindly advise.",Product Quality,damaged_on_arrival
+"Good morning, pages take forever to load on your site. This is an emergency, please act immediately!",Technical Support,slow_performance
+"Good morning, I placed an order by mistake and need it cancelled. Worst service ever.",Refund,cancel_order
+I am writing because the system response time is terrible. Thanks in advance for your help.,Technical Support,slow_performance
+"To whom it may concer, the product looks nthing like the pictures. I am extremely frustrated.",Product Quality,not_as_described
+"To whom it may concern, the total on my invoice does not match what I agred to pay.",Billing,wrong_amount
+"Good morning, the features listed are missing from the prodct. I am very disappointed.",Product Quality,not_as_described
+"Dear support, my card was billed two times for a single puchase. This is uacceptable!",Billing,double_charge
+"Hi, the packae was supposed to arrive days ago. Thanks in advance for your hel.",Delivery,late_delivery
+"Dear suppot, the courier says delivered but nothing is at my dor. Please look into it.",Delivery,lost_package
+"To whom it may cocern, the application freezes and closes by itself. I am extremely frustrated.",Technical Support,app_crash
+"Hi team, the package was supposed to arive days ago. Thans in advance for your help.",Delivery,late_delivery
+"Hi, the total on my invoice does not mtch what I agreed to pay. Can you help?",Billing,wrong_amount
+everything loads very slowly since the update. Please respond asap.,Technical Support,slow_performance
+the reset link does not work.,Account,password_reset
+"Hi tam, I want to change my registered details. I am extremely frustrated.",Account,update_details
+"Hey, the website throws an error every time I submit the form. Worst service ever.",Technical Support,app_crash
+"Dear support, I returned the item but have not received my refund. I have been a loyal customer for years.",Refund,refund_delay
+the features lised are missing from the product. Thanks in advance for your help.,Product Quality,not_as_described
+the app is extremely slow and laggy. Kindly advise.,Technical Support,slow_performance
+I want to change my password but cannot.,Account,password_reset
+everything loads very slowly since the updae.,Technical Support,slow_performance
+"Hey, I want to cancel my order immediately. I have been a loyal customer for years.",Refund,cancel_order
+I was told I am not eigible for a refud. Thanks in advance for your help.,Refund,refund_denied
+my rfund has been pending for weeks.,Refund,refund_delay
+"Hey, how can I update my phone number and address.",Account,update_details
+"Hi, the verification code never arrives so I cannot sign in. This is unacceptable!",Technical Support,login_issue
+"Hey, the reet link does not work. I have been a loyal customer for years.",Account,password_reset
+"Hello, I want to cancel my order immediately. Thanks in avance for your help.",Refund,cancel_order
+I am writing because the item is falty and keeps malfunctioning. I need this fixed urgentl.,Product Quality,defective_product
+"Good morning, you took money from my account twice. This is an emergency, please act immediately!",Billing,double_charge
+"Hey, the product looks nothing like the pictures.",Product Quality,not_as_described
+"Hey, my card was blled two times for a single purchase. I am very disappointed.",Billing,double_charge
+I cannot log in to my account even with correct details. I have been a lyal customer for yers.,Technical Support,login_issue
+"Good morning, the deliery is delayed by over a week. This is unacceptable!",Delivery,late_delivery
+"Dear support, I need to change my email address on the account.",Account,update_details
+my refund request was rejected unfairly.,Refund,refund_denied
+the item came with cracks and scratchs. I am extremely frustrated.,Product Quality,damaged_on_arrival
+"I received the wrong item in my order. This is an emergency, please act immediately!",Delivery,wrong_item
+I am writing bcause the invoce for last month is missing from my account. I have been a loyal customer for yeas.,Billing,invoice_missing
+"Hi team, the total on my invoice does not match what I agreed to pay. I am extremely frustrated.",Billing,wrong_amount
+"Dear support, the amount charged is higher than the price shown. I am very disappointed.",Billing,wrong_amount
+"Hello, I was overchargd on my bill. I have been a loyal customer for years.",Billing,wrong_amount
+the password reset link has expired. I am very disappointed.,Account,password_reset
+"Hello, my account has been locked for no rason. This is unacceptable!",Account,account_locked
+I was told I am not eligible for a refund. Plase look into it.,Refund,refund_denied
+"Hi, the pakage was supposed to arrive days ago.",Delivery,late_delivery
+"Hey, I want to cancel my order immediately. This is unacceptable!",Refund,cancel_order
+"To whom it may concern, my package shows delivered but I never received it.",Delivery,lost_package
+I am lockd out ater too many attempts. I am very disappointed.,Account,account_locked
+I returned the item but have not received my refund. Thanks in advance for your hel.,Refund,refund_delay
+"To whom it may concern, I need a copy of my receipt but cannot find it. Worst service ever.",Billing,invoice_missing
+the courier says delivered but nothing is at my door. I have been a lyal customer for years.,Delivery,lost_package
+I am writing because the screen was shattered on delivery. I have been a lyal customer for years.,Product Quality,damaged_on_arrival
+"Hi team, my refund has been pending for weeks. Please repond asap.",Refund,refund_delay
+my account was suspended withut explanation. I need this fixed urgently.,Account,account_locked
+"Hi, the lgin page keeps showing an error. Kindly advis.",Technical Support,login_issue
+I am locked out after too many attempts. I need this fied urgently.,Account,account_locked
+"To whom it may concern, sign in fails with an invald credentials message. I am very disappointed.",Technical Support,login_issue
+"Hey, the reset link does not work. Please respond asap.",Account,password_reset
+"Hey, my account has been locked for no reason. Please look into it.",Account,account_locked
+"Hi, the delivery is delayed by over a week. This is an emergency, plese act immediately!",Delivery,late_delivery
+"To whom it may concern, the item is faulty and keeps malfunctioning. Kindly advise.",Product Quality,defective_product
+"Hllo, how do I cancel the purchase I just made. Can you help?",Refund,cancel_order
+"Hey, the applicaton freezes and clses by itslf.",Technical Support,app_crash
+"Hey, I was overcharged on my bil. I need this fixed urgenly.",Billing,wrong_amount
+"Hey, shipping is takng far too log. I am very disappointed.",Delivery,late_delivery
+"Dear support, the logn page keeps showing an errr. This is an emergency, please act immediatey!",Technical Support,login_issue
+the parcel seems to be lost in transit. Worst service ever.,Delivery,lost_package
+"To whom it may concern, I received the wrong item in my order. I am extremly frustrated.",Delivery,wrong_item
+"Hi tea, you took money from my account twice. Worst servce ever.",Billing,double_charge
+"To whom it may concern, my refund request was rejected unfairly.",Refund,refund_denied
+"Hi, I cannot log in to my account even with correct details. Can you help?",Technical Support,login_issue
+"Good moring, please send me the tax invoice for my order. Thanks in advance for your hlp.",Billing,invoice_missing
+"Hey, the app is extremely slow and lagg. I am very disappointed.",Technical Support,slow_performance
+"Hi team, you refued to refund me even though the item was faulty. I am extremey frustrated.",Refund,refund_denied
+"Hi team, you took money from my account twice. Can you help?",Billing,double_charge
+"Dear support, the reset link does not work. This is an emergenc, please act immediately!",Account,password_reset
+I want to chage my registered details. I have been a loyal cstomer for years.,Account,update_details
+the quality is much lowr than advertisd. I have been a loyal customer for years.,Product Quality,not_as_described
+I am writing bcause I returned the item but have not received my refund. Please respond aap.,Refund,refund_delay
+"Hi tea, the product stopped workig ater two days.",Product Quality,defective_product
+"To whom it may concern, how can I update my phone number and address. I need this fixed urgently.",Account,update_details
+"To whom it may concern, my card was blled two times for a single purchse. Please respond asap.",Billing,double_charge
+"To whom it may concern, my account was suspended withot explanation.",Account,account_locked
+"Dear support, I am locked out afer too many attempts. I am very disappointed.",Account,account_locked
+"Hey, my card was blled two times for a single purchase. Kidly advise.",Billing,double_charge
+my order contained someone else's items. Thanks in advance for your help.,Delivery,wrong_item
+"Hi team, the app is extremely slow and laggy. Kindly advise.",Technical Support,slow_performance
+"Dear support, my card was billed two times for a single purchase. Can you help?",Billing,double_charge
+"Good morning, please send me the tax invoice for my order. Thanks in advance for your help.",Billing,invoice_missing
+"Hey, the app is exremely slow and laggy. I have been a loyal customer for years.",Technical Support,slow_performance
+"Hi team, the product was broken when I oened the box. I need this fixed urgently.",Product Quality,damaged_on_arrival
+"Hello, I want to change my password but cannot. Can you help?",Account,password_reset
+I placed an order by mistake and need it cancelled. Thanks in advnce for your help.,Refund,cancel_order
+"Hey, the device is defective and will not turn on. Please respond asap.",Product Quality,defective_product
+"Hi, the login page keeps showing an error. Please respond aap.",Technical Support,login_issue
+"Hi team, my pckage shows delivered but I never received it. This is an emergency, please act immediately!",Delivery,lost_package
+the parcl sees to be lost in transit. Kindly advise.,Delivery,lost_package
+"Hi, the delivery is delayed by over a week. I have been a loyal customer for years.",Delivery,late_delivery
+"Hi, the login page keeps showig an errr. This is an emergency, please act immediately!",Technical Support,login_issue
+pages take forevr to load on your site. I need this fixed urgetly.,Technical Support,slow_performance
+the total on my invoce does not match what I agreed to pay. Worst service ever.,Billing,wrong_amount
+"Good morning, my rfund request was rejected unfairly. Worst service evr.",Refund,refund_denied
+"To whom it may concern, my order contained someone else's items. Kindy advise.",Delivery,wrong_item
+"Hello, I placed an order by mistake and need it cancelled. Can you help?",Refund,cancel_order
+"To whom it may cncern, the webite throws an error evey time I submit the fom.",Technical Support,app_crash
+"Hello, there is a duplicae charge on my bank statement. I am very disappointed.",Billing,double_charge
+"To whom it may concern, I received the wrong item in my order. Kindly advise.",Delivery,wrong_item
+"Dear support, I forgot my password and the reset email is not coming. Pease look into it.",Account,password_reset
+"To whom it may concern, sign in fails with an invalid credentials message. I need this fixed urgently.",Technical Support,login_issue
+"Hello, the reset link does not work. I am extremely frustrated.",Account,password_reset
+I am writing becase please send me the tax invoice for my order. Can you help?,Billing,invoice_missing
+"Hi tem, I need a copy of my receipt but canot find it.",Billing,invoice_missing
+my rfund has been pending for weeks. I have been a loyal cutomer for years.,Refund,refund_delay
+I need to chage my email address on the account. Can you help?,Account,update_details
+"I am writing because sign in fails with an invaid credentials message. This is an emergency, please act immediately!",Technical Support,login_issue
+"Good morning, there is a dupliate charge on my bank statement. Please respond asap.",Billing,double_charge
+"Good morning, the delivey is delayed by over a week. I am extremely frustrated.",Delivery,late_delivery
+the total on my invoice does not match what I agreed to pay.,Billing,wrong_amount
+"Dear support, you refused to refund me even though the item was faulty. Can you help?",Refund,refund_denied
+I am writing bcause the item does not match the description on your website. Kindly advise.,Product Quality,not_as_described
+"Hi team, I want to change my registered details. I am very disappointed.",Account,update_details
+I am writing beause sign in fails with an invalid credentials message. Please repond asap.,Technical Support,login_issue
+"Dear support, I returned the item but have not receied my refund.",Refund,refund_delay
+"Hey, I forgot my password and the reset email is not comng. Plase look into it.",Account,password_reset
+"Hllo, the item does not mach the description on your website.",Product Quality,not_as_described
+your softwae crashes on sartup. Kindly advse.,Technical Support,app_crash
+the pacel sems to be lost in transit. I am extremely frustraed.,Delivery,lost_package
+"Hi, I am loced out after too many attempts. I am exremely frustated.",Account,account_locked
+how can I update my phone number and addess. Kindly advise.,Account,update_details
+"Hello, you took money from my account twice. Kindly advis.",Billing,double_charge
+"Hey, the features listed are missing from the product. Thanks in advance for your help.",Product Quality,not_as_described
+I am writing becuse it broe after minimal use. I am extremely frustrated.,Product Quality,defective_product
+"Good morning, the size and colour delivered is not what I selected. This is unacceptable!",Delivery,wrong_item
+"Good morning, the product looks nothing like the pictures. I need this fxed urgently.",Product Quality,not_as_described
+"To whom it may concern, the courer says deliverd but nothing is at my door. I need this fixed urgently.",Delivery,lost_package
+the product was brokn when I opened the box. I am very disappointed.,Product Quality,damaged_on_arrival
+"Dear support, the system response time is terrible. Can you help?",Technical Support,slow_performance
+I forgot my password and the reet email is not cming. Please look into it.,Account,password_reset
+"Dear support, the item is faulty and keeps malfunctioning. I am extremely frustrated.",Product Quality,defective_product
+"To whom it may concern, please send me the tax invoice for my order. I am extremly frustrated.",Billing,invoice_missing
+"Hello, my order has not arrived yet and it is long overdue. Please respond aap.",Delivery,late_delivery
+"Hi, the product looks nothing like the pictures.",Product Quality,not_as_described
+"Dear support, the product was broken when I opened the box.",Product Quality,damaged_on_arrival
+"Hey, the item does not match the description on your website.",Product Quality,not_as_described
+I want to change my regstered details. Can you help?,Account,update_details
+"Good morning, my order has not arrived yet and it is long overdue. Please respond asap.",Delivery,late_delivery
+"Dear support, the package arrivd crushed and the item is damaged. This is unacceptable!",Product Quality,damaged_on_arrival
+my order has not arived yet and it is long overdue. Please respond asap.,Delivery,late_delivery
+I am writing because I rturned the item but have not received my refund.,Refund,refund_delay
+"Hi team, the refund was promised in 5 days but nothing arrived.",Refund,refund_delay
+"Hey, the product stopped working after two days.",Product Quality,defective_product
+"Hi, the reset link does not work. This is unacceptable!",Account,password_reset
+"Good morning, the invoice for last month is missing from my account. This is unacceptable!",Billing,invoice_missing
+"Hello, I was charged twice for the same orde. Please look into it.",Billing,double_charge
+"Good mornng, everything loads very slowly since the updae. I am extremely frustrated.",Technical Support,slow_performance
+"Hi tam, sign in fails with an invalid credentals message. This is an emergecy, please act immediately!",Technical Support,login_issue
+the rest link does not work.,Account,password_reset
+"Hi team, the courier says delivered but nothing is at my door. Pleae respond asap.",Delivery,lost_package
+"Good mornig, I never received the invoice for my purchas. Thanks in advance for your help.",Billing,invoice_missing
+"Hi, I was charged twce for the same orer. I am very disappointed.",Billing,double_charge
+the app keeps crashing when I open it. Kindly advise.,Technical Support,app_crash
+I am writing because how can I update my phone number and address. Please respond asap.,Account,update_details
+I am wriing because my order contained someone else's items. This is unacceptable!,Delivery,wrong_item
+"Hi team, I placed an order by mistake and need it cancelled. I have been a loyal customer for years.",Refund,cancel_order
+"Hi, I want to change my registered details. I am extremely frustrated.",Account,update_details
+the courier says delivered but nothing is at my door. Please respond asap.,Delivery,lost_package
+extra fees were added to my bill without any notice. Can you help?,Billing,wrong_amount
+"To whom it may concer, the refund was promised in 5 days but nothing arrived. Please respond asap.",Refund,refund_delay
+"Good morning, I cannot log in to my accont even with correct details. I have been a loyl customer for yeas.",Technical Support,login_issue
+I am writing because I want to change my password but cannot.,Account,password_reset
+I am writing because the courier says delivered but nothing is at my door. I need this fied urgently.,Delivery,lost_package
+"Good moring, the total on my invoice does not match what I agreed to pay. Please look into it.",Billing,wrong_amount
+"Hey, tracking has not updated for days and my pakage is missing.",Delivery,lost_package
+I am locked out after too many attempts. This is unacceptable!,Account,account_locked
+everything loads very sloly since the update. This is unacceptable!,Technical Support,slow_performance
+"Dear support, shipping is taking far too long. Please look into it.",Delivery,late_delivery
+"Hi team, you sent me a different produt than what I ordered. This is an emergency, please act immediately!",Delivery,wrong_item
+I am writing because I placed an order by mistake and need it cancelled. I am very disappointed.,Refund,cancel_order
+I am writing because the courier says delivered but nothing is at my door. I need this fixed urgently.,Delivery,lost_package
+"Good mornig, the item came with cracks and scratches. I am very disappointed.",Product Quality,damaged_on_arrival
+"Hi, my card was billed two times for a single purchase.",Billing,double_charge
+"To whom it may concern, the amount charged is higher than the price sown. This is uncceptable!",Billing,wrong_amount
+"Hi, the amount charged is higher than the price shown.",Billing,wrong_amount
+"Dear suppot, I am locked out after too many attempts. I am extremely frutrated.",Account,account_locked
+"Hi, I want to change my registered details. This is unacceptable!",Account,update_details
+"Hey, I want to change my password but cannt.",Account,password_reset
+"Hello, I want to change my password but cannt. Please look into it.",Account,password_reset
+"Hi, my card was biled two times for a single purchase. Please look into it.",Billing,double_charge
+I am writing because sign in fails with an invalid credentials message. I am very disppointed.,Technical Support,login_issue
+"I am writing because sign in fils with an invalid credentials message. This is an emergency, please act immediately!",Technical Support,login_issue
+I was told I am not eliible for a refund. Please look into it.,Refund,refund_denied
+"Dear support, my package shows delivered but I never received it.",Delivery,lost_package
+"Helo, the package arived crushed and the item is damaged. Please respond asap.",Product Quality,damaged_on_arrival
+the package was supposed to arrive days ago. I need this fixed urgently.,Delivery,late_delivery
+I am writng because the device is defective and will not turn on. Thanks in advance for your help.,Product Quality,defective_product
+I am writing because I am locked out after too many attempts. I am extremely frustrated.,Account,account_locked
+"Good morning, the package was supposed to arrive days ago. Please respond asap.",Delivery,late_delivery
+"Dear support, you sent me a differet product than what I ordered. I need this fixed urently.",Delivery,wrong_item
+"Dear spport, the size and colour delivered is not what I selected. I need this fixed urgently.",Delivery,wrong_item
+"Hi, I forgot my password and the reset email is not coming. I am very disappointed.",Account,password_reset
+"Hi team, the password reset link has expired. This is an emergency, please act immediately!",Account,password_reset
+"Dear support, my refund request was rejected unfairly. I need this fixed urgently.",Refund,refund_denied
+"Hello, I returned the item but have not received my refnd. Can you help?",Refund,refund_delay
+the device is defective and will not turn on. Kindly advise.,Product Quality,defective_product
+"Hey, the product loks nothing like the pictures. Please look into it.",Product Quality,not_as_described
+"To whom it may concrn, the qulity is much lower than advertised. This is an emergency, please act immediately!",Product Quality,not_as_described
+I am writing because I need to change my email adress on the account. Please respond asap.,Account,update_details
+"I am writing because the item came with cracks and scratches. This is an emergency, please act immediately!",Product Quality,damaged_on_arrival
+"To whom it may cocern, I need to cange my emil address on the account. I am very disappointed.",Account,update_details
+"Hi, the login page kees showing an error.",Technical Support,login_issue
+"Hello, the app keeps crashing when I open it.",Technical Support,app_crash
+"Hello, you took money from my account twice. This is an emergency, please act immediately!",Billing,double_charge
+"To whom it may concern, I want to cancel my order immediately. Worst service ever.",Refund,cancel_order
+"Hello, the package arrived crushed and the item is damaged. Kindly advise.",Product Quality,damaged_on_arrival
+"Good morning, my oder contained someone else's items.",Delivery,wrong_item
+"Good morning, I am locked out after too many attempts. I have been a loyl customer for years.",Account,account_locked
+please send me the tax invoice for my orde. I have been a loyal customer for year.,Billing,invoice_missing
+"Hi team, the product looks nothing like the pictures. This is unacceptable!",Product Quality,not_as_described
+"Hi, the product stopped working aftr two days. Can you hel?",Product Quality,defective_product
+"Hi, plese cancel my subscription. Can you help?",Refund,cancel_order
+"Dear support, my refund has been pending for weeks. I need this fixed urgently.",Refund,refund_delay
+"To whom it may concern, the features listed are missig from the product. I have been a loyal customer for years.",Product Quality,not_as_described
+"Hllo, I cannot log in to my account even with correct detals. Please look into it.",Technical Support,login_issue
+I am writing because how can I update my phne number and address. Thanks in advance for your help.,Account,update_details
+I am writing because the delivery is delayed by over a week. Thanks in advance for your help.,Delivery,late_delivery
+"Hey, I am still waiting for the money back from my return.",Refund,refund_delay
+the refund was promised in 5 days but nothing arrived. This is unacceptble!,Refund,refund_delay
+"Good morning, eerything loads very slwly since the updat. Thanks in advance for your help.",Technical Support,slow_performance
+"Hey, tracking has not upated for days and my package is missing. I am extremely frustraed.",Delivery,lost_package
+I cannot log in to my account even with corect details. Thanks in advance for your help.,Technical Support,login_issue
+"Hi, my account has been lcked for no reason. Kindly advise.",Account,account_locked
+"Hey, my refnd request was rejected unfairly. Can you help?",Refund,refund_denied
+"To whom it may concern, shipping is taking far too lon. Please look into it.",Delivery,late_delivery
+"To whom it may concern, the packge was supposed to arrive days ago. Can you help?",Delivery,late_delivery
+"Hello, the product stopped working after two days. I am extremely frustrated.",Product Quality,defective_product
+"Dear support, I never received the invoice for my prchase. I am extremely frustrated.",Billing,invoice_missing
+"Hi, the item is faulty and keeps malfunctioning. I have been a loyal customer for years.",Product Quality,defective_product
+"Dear support, how can I update my phone number and address. Kindly advise.",Account,update_details
+I am writing because the app is extrmely slow and laggy. I need this fixed urgently.,Technical Support,slow_performance
+I received the wrong item in my oder.,Delivery,wrong_item
+"Hi team, I am still waiting for the money back from my return. I am extremely frustrated.",Refund,refund_delay
+I am writing because the application freezes and closes by itself. I need this fied ugently.,Technical Support,app_crash
+sign in fais with an invalid credentials message. I have been a lyal customer for years.,Technical Support,login_issue
+"Hey, please correct the name on my profile. Worst servce ever.",Account,update_details
+I want to change my registered details. I am very disappointed.,Account,update_details
+I am writing because sign in fails with an invalid credentials message.,Technical Support,login_issue
+I am writing becuse I need to change my email address on the account. Wost service ever.,Account,update_details
+"Hi team, my account was suspended wihout explanation. Can you help?",Account,account_locked
+I am writing bcause the password reset link has expired. I am extremely frusrated.,Account,password_reset
+shipping is taking far too long.,Delivery,late_delivery
+the product stopped working after two days.,Product Quality,defective_product
+"Dear support, how do I cancel the purchase I just made. Worst service eer.",Refund,cancel_order
+"Good morning, the curier says delivered but nothing is at my door. Can you hel?",Delivery,lost_package
+"Hell, it broke after minimal use. I am very disappointed.",Product Quality,defective_product
+I am writing because my refund has been pending for week.,Refund,refund_delay
+the courier says deivered but nthing is at my door.,Delivery,lost_package
+the item came with cracks and scraches. Kindly advise.,Product Quality,damaged_on_arrival
+"To whom it may concrn, I cannot log in to my account even with correct details. Please look into it.",Technical Support,login_issue
+I am writing because I never received the invoice for my purchase. I am extremely frustrated.,Billing,invoice_missing
+there is a dupicate charge on my bank statement. Please respond asap.,Billing,double_charge
+"Hi tam, the item is fauty and keeps malfunctioning. I need this fixed urgently.",Product Quality,defective_product
+"Good morning, my orer has not arrived yet and it is long overde. This is an emergency, please act immediately!",Delivery,late_delivery
+"Hi, I was charged twice for the same order. Can you help?",Billing,double_charge
+"Hi, please cancel my subscription. Thanks in advance for your help.",Refund,cancel_order
+"I am writing because the prouct was broken when I opened the box. This is an emergency, please act immediately!",Product Quality,damaged_on_arrival
+"To whom it may cncern, I never received the invoice for my purhase. Kindly advise.",Billing,invoice_missing
+"Hello, my refund has been pending for weeks. Thanks in advance for your help.",Refund,refund_delay
+"Hi, I want to cancel my order immediately.",Refund,cancel_order
+the password reset link has expired. Kindly advise.,Account,password_reset
+"Hi, the item is faulty and kees malfunctioning. Can you help?",Product Quality,defective_product
+extra fees were added to my bill without any notice. I am extremely frustrated.,Billing,wrong_amount
+"To whom it may concern, I was told I am not eligible for a refund. Can you help?",Refund,refund_denied
+"Hi team, the package was supposed to arrive days ago. Can you help?",Delivery,late_delivery
+the product was broken when I opened the box. Worst servie ever.,Product Quality,damaged_on_arrival
+I am lockd out after too many attempts. Please respond asap.,Account,account_locked
+I am writing because I was charged twice for the same order. Please look into it.,Billing,double_charge
+"Dear support, I need a copy of my receipt but cannot find it. Worst service ever.",Billing,invoice_missing
+"Good morning, I forgot my passwod and the reset eail is not coming. I need this fixed urgently.",Account,password_reset
+"Hello, the produt stopped workig after two days. I need this fixed urgently.",Product Quality,defective_product
+"Hello, I never received the invoice for my purchase.",Billing,invoice_missing
+"To whom it may concern, the website throws an error every time I submit the frm. Please look into it.",Technical Support,app_crash
+I was charged twice for the same order. I have been a loyal customer for year.,Billing,double_charge
+the total on my invoice does not match what I agreed to pay. Please look into it.,Billing,wrong_amount
+"Good morning, the item does not match the description on your wbsite. Thanks in avance for your help.",Product Quality,not_as_described
+"Good moring, the item is faulty and kees malfunctioning. Worst service ever.",Product Quality,defective_product
+the system response time is terrible. Can you help?,Technical Support,slow_performance
+"To whom it may concern, my refund request was rejected unfairly. Please respond asap.",Refund,refund_denied
+"Hi team, your softwre crahes on startup. I am very disappointed.",Technical Support,app_crash
+"Good morning, the delvery is delayed by over a week. Please look into it.",Delivery,late_delivery
+"Hello, the amount charged is higher than the price shown. I have been a loyal customer for years.",Billing,wrong_amount
+"Hi tea, the login page keeps showing an error. Please resond asap.",Technical Support,login_issue
+"Helo, the features listed are missing from the product. Kidly advise.",Product Quality,not_as_described
+"my card was billed two times for a single purchse. This is an emergency, please act immediately!",Billing,double_charge
+"Dear support, how do I cancel the purchase I just made. Can you help?",Refund,cancel_order
+I am witing because shipping is taing far too long. Please look into it.,Delivery,late_delivery
+the application freezes and closes by itself. I am very disappointed.,Technical Support,app_crash
+"To whom it may concern, you took money from my account twice. Please look into it.",Billing,double_charge
+"Hi team, I want to chane my registered details.",Account,update_details
+"Hey, I was charged twice for the same order. I need this fixed urgently.",Billing,double_charge
+"Dear support, my ordr has not arrived yet and it is long overdue. This is unacceptable!",Delivery,late_delivery
+"Hey, you sent me a different produt than what I ordered. Please respond asap.",Delivery,wrong_item
+"Good morning, my refud request was rejectd unfairly. I am extremely frustrated.",Refund,refund_denied
+my package shos delivered but I never receivd it.,Delivery,lost_package
+"Good morning, the application freezes and closes by itself.",Technical Support,app_crash
+"Dear support, I forgot my password and the reset email is not coming. Please respond asap.",Account,password_reset
+"Hi team, I paced an oder by mistake and need it canceled. This is unacceptable!",Refund,cancel_order
+"Dear support, my refund has been peding for weeks. Plase respond asap.",Refund,refund_delay
+"Good morning, the lgin page keeps showing an error. This is unacceptable!",Technical Support,login_issue
+"Hi team, my refund has been pending for weeks. I need this fixed urgently.",Refund,refund_delay
+"Hi team, I want to cancel my order immediately. I am very disappointd.",Refund,cancel_order
+"Hi, my package shows delivered but I never received it. I need this fixd urgently.",Delivery,lost_package
+"To whom it may concern, the system response time is terrible. Worst service ever.",Technical Support,slow_performance
+I am writing because the application freezes and closs by itself. Please respond asap.,Technical Support,app_crash
+"To whom it may conern, the login page keeps showing an error. I need this fixed urgently.",Technical Support,login_issue
+"Hey, your software crashes on startup. Worst service ever.",Technical Support,app_crash
+"To whom it may concern, I never received the invoice for my purchase. I have been a loyal customer for years.",Billing,invoice_missing
+the password rset link has expired. This is unaccptable!,Account,password_reset
+"Hello, my order contaied someone else's items. I am very disappointed.",Delivery,wrong_item
+my account has been locked for no reason. Please respod asa.,Account,account_locked
+I am writing because everything loas very slowly since the update.,Technical Support,slow_performance
+the verification code never arrives so I cannot sign in. Please respond asap.,Technical Support,login_issue
+"Good morning, tracking has not updated for days and my pacage is missing. Wrst service ever.",Delivery,lost_package
+"Dear support, I want to change my registered details. Pease look into it.",Account,update_details
+"Hello, my card was billed two times for a single purchase. I need this fixed urgently.",Billing,double_charge
+the refnd was promsed in 5 days but nothing arrived. I am very disappointed.,Refund,refund_delay
+"Hey, the item is faulty and keeps malfunctioning.",Product Quality,defective_product
+the rfund was promised in 5 days but nothing arrived. I am extremely frstrated.,Refund,refund_delay
+"Hey, I returned the item but have not received my refund. I am extremely frustrated.",Refund,refund_delay
+"Good morning, you sent me a different prouct than what I ordered. Worst service ever.",Delivery,wrong_item
+"Dear support, how do I cancel the purchase I just made. This is unacceptable!",Refund,cancel_order
+I am wriing because I placed an order by mistake and need it cancelled. Worst service ever.,Refund,cancel_order
+"Hey, there is a duplicate charge on my bank statement. I need this fixed urgently.",Billing,double_charge
+my order has not arrived yet and it is long overdue. I have been a loyal customer for years.,Delivery,late_delivery
+you refused to refund me even though the item was faulty. I have been a loyl customer for years.,Refund,refund_denied
+"Hi, the ivoice for last month is missing from my account. Thans in advance for your help.",Billing,invoice_missing
+"Hi, I was charged twice for the same order. Kidly advise.",Billing,double_charge
+"my order contaied someone ese's items. This is an emergency, plase act immediately!",Delivery,wrong_item
+"To whom it may conern, I want to cancel my order immediately. Kindly advise.",Refund,cancel_order
+the courier says delivered but nothing is at my door. Thanks in avance for your help.,Delivery,lost_package
+I am writing because how can I update my phone number and address. I am very disapointed.,Account,update_details
+"Good morning, pages take foreer to load on your site. I am very disappointed.",Technical Support,slow_performance
+"To whom it may concern, I forgt my password and the reset email is not coming. Pease respond asap.",Account,password_reset
+I am writing because sign in fails with an invalid credentials message. Please resond asap.,Technical Support,login_issue
+how can I update my phone nmber and addess. I need this fixed urgently.,Account,update_details
+I am writng because the vrification code never arives so I cannot sign in.,Technical Support,login_issue
+I returned the item but have not received my reund. Please respond asap.,Refund,refund_delay
+"Good morning, my order has not arrived yet and it is long overdue.",Delivery,late_delivery
+the invoice for last month is missing from my account.,Billing,invoice_missing
+"Hi team, I need to change my email address on the account. This is an emergency, please act immediately!",Account,update_details
+the item came with cracks and scratches.,Product Quality,damaged_on_arrival
+"Dear support, your software crashes on startup. I need this fixed urgently.",Technical Support,app_crash
+"Hi team, the screen was shattered on delivery. I am very disappointed.",Product Quality,damaged_on_arrival
+please correct the name on my profie. Kinly advise.,Account,update_details
+"Dear support, my refund request was rejected unfairly. This is an emergency, please act immediately!",Refund,refund_denied
+"Good morning, my order has not arrived yet and it is long ovedue. Kindly adise.",Delivery,late_delivery
+"Hey, pages take forever to load on your site.",Technical Support,slow_performance
+"Good morning, the pssword reset link has expired. I am very disappointed.",Account,password_reset
+the product looks nothing like the pitures. Worst service ever.,Product Quality,not_as_described
+"Dear suport, the system response time is terrible. Kindly advise.",Technical Support,slow_performance
+"To whom it may concern, the item does not match the descripion on your website. Kindly advise.",Product Quality,not_as_described
+"Hey, the product was broken when I opened the box. Plese look into it.",Product Quality,damaged_on_arrival
+"Hello, I need a copy of my receipt but cannot find it. Please look into it.",Billing,invoice_missing
+I placed an order by misake and need it cancelled. I need this fixed urgently.,Refund,cancel_order
+"my refund has been pending for weeks. This is an emergency, plase act immeditely!",Refund,refund_delay
+I am wrting because the qualiy is much lower than advertise. I need this fixed urgently.,Product Quality,not_as_described
+the product looks nothing like the pictures. Kidly advise.,Product Quality,not_as_described
+"Hi, I placed an order by mistake and need it cancelled. Please look into it.",Refund,cancel_order
+"Helo, the app keeps crashing when I open it. Kindly advise.",Technical Support,app_crash
+the toal on my invoice does not match what I agreed to pay. Kindly advise.,Billing,wrong_amount
+"Hello, I received the wrong item in my order. I need this fixed urgently.",Delivery,wrong_item
+"Good morning, my order contained someone else's items. Worst service ever.",Delivery,wrong_item
+"Hey, tracking has not updated for days and my package is mising.",Delivery,lost_package
+"Hi, I was overcharged on my bill. I am extremely frustrated.",Billing,wrong_amount
+tracking has not updated for days and my package is missing. Thanks in advance for your help.,Delivery,lost_package
+the product looks nothing like the pictures.,Product Quality,not_as_described
+"Hi team, please cancel my subscription. This is an emergency, please act immediately!",Refund,cancel_order
+"I was charged twice for the same order. This is an emergency, please act immediaely!",Billing,double_charge
+"Hi tam, the application freezes and closes by iself. Can you help?",Technical Support,app_crash
+the application freezes and closes by itelf.,Technical Support,app_crash
+"Good morning, it broke after minimal use. I need this fixed urgently.",Product Quality,defective_product
+"Hey, pages take foreer to load on your site. I have been a loyal customer for yars.",Technical Support,slow_performance
+"To whom it may concern, I cannot log in to my accunt even with correct details. I am very disappointed.",Technical Support,login_issue
+the password reset link has expired.,Account,password_reset
+"Hi, my package shows delivered but I never receved it.",Delivery,lost_package
+"Hey, the total on my inoice does not match what I agreed to pay. Please respond asa.",Billing,wrong_amount
+"Good morning, the features listed are missing from the product. Can you help?",Product Quality,not_as_described
+"Hi tem, the app keeps crashing when I open it. I am extremely frustated.",Technical Support,app_crash
+"Good morning, extra fees were added to my bill without any notice. I am extremely frustrated.",Billing,wrong_amount
+I am writig bcause the app keeps crashing when I open it.,Technical Support,app_crash
+"To whom it may concern, my account has been locked for no reason. Please look into it.",Account,account_locked
+"Good morning, the parcel seems to be lost in transit.",Delivery,lost_package
+I cannot log in to my account even with correct details. Can you hel?,Technical Support,login_issue
+"Hello, my account has been locked for no reason. I am extremely frustrated.",Account,account_locked
+"Hello, plese cancel my subscription. I am extremely frustrated.",Refund,cancel_order
+the delivery is delayed by over a week. I am very disappointed.,Delivery,late_delivery
+"Hey, my refund has been pending for weeks. This is an emergecy, please act immediately!",Refund,refund_delay
+"Good mornin, my accunt has been locked for no reson. This is unacceptable!",Account,account_locked
+"Good morning, the product looks nothing like the pictures. I have been a loyal customer for years.",Product Quality,not_as_described
+I am writing because the features lited are missng from the produt. This is unacceptable!,Product Quality,not_as_described
+"Hell, please correct the name on my profile. Please respond asap.",Account,update_details
+the product was broken when I opened the box.,Product Quality,damaged_on_arrival
+the verification code never arrives so I cannot sign in. I need this fixed urgently.,Technical Support,login_issue
+"Hey, how can I updte my phone number and address. I am extremely frustrated.",Account,update_details
+I am writing because the return was denied and I do not understand why. I am extremely frustrated.,Refund,refund_denied
+"Good morning, the system response time is terrible. I am very disappointed.",Technical Support,slow_performance
+"Hi, I was overcharged on my bill. This is unacceptable!",Billing,wrong_amount
+"Dear spport, the invoice for last month is missing from my account. I need this fxed urgently.",Billing,invoice_missing
+"Good moring, pages take forever to load on your site. Can you help?",Technical Support,slow_performance
+"Hi, the product stopped working aftr two days. Please look into it.",Product Quality,defective_product
+the prouct looks nothng like the picturs.,Product Quality,not_as_described
+"To whom it may concern, I am locked out after too many attempts. I am very disappointed.",Account,account_locked
+the app keeps crashing when I open it. This is unacceptable!,Technical Support,app_crash
+"Hey, the package arrived crushed and the item is damaged. I am extreely frustrate.",Product Quality,damaged_on_arrival
+"Hi, please cancel my subscription. Worst service ever.",Refund,cancel_order
+the features listd are missing from the product.,Product Quality,not_as_described
+"Hello, the poduct stopped working after two das. This is unacceptable!",Product Quality,defective_product
+"Hi, everything lods very slowly snce the upate. Please look into it.",Technical Support,slow_performance
+"Hi, the size and colour delivered is not what I selecte. I am very disappointed.",Delivery,wrong_item
+"To whom it may concern, I was overcharged on my bll. I am very disappointed.",Billing,wrong_amount
+"Hi, I want to cancel my order immediatey. This is unaccptable!",Refund,cancel_order
+"Hi, I want to change my registered details. Can you help?",Account,update_details
+the size and colour delivered is not what I selected. This is unacceptable!,Delivery,wrong_item
+"the item does not match the description on your website. This is an emergenc, please act immediately!",Product Quality,not_as_described
+I am writing because everything loads very slowly since the udate. I am very disappointed.,Technical Support,slow_performance
+"Hi, access to my account is blocked.",Account,account_locked
+"To whom it may concern, the features lsted are missig from the product. Kindly advise.",Product Quality,not_as_described
+"Hi team, the app is extremely slow and laggy. This is an emergency, please act immediately!",Technical Support,slow_performance
+"Hi, the item does not match the description on your webste. I need this fied urgently.",Product Quality,not_as_described
+"Hi team, the product was broken when I opened the box. Please respond asap.",Product Quality,damaged_on_arrival
+pges take forever to load on your site.,Technical Support,slow_performance
+"Hi team, I was overcharged on my bill. Please look into it.",Billing,wrong_amount
+access to my account is blocked. Worst srvice ever.,Account,account_locked
+"Hi team, my order has not arrived yet and it is long overdue. I have been a loyal customer for years.",Delivery,late_delivery
+I am witing because you refused to refund me even tough the item was faulty. Can you help?,Refund,refund_denied
+the item is faulty and keeps malfunctioning. Kindly advise.,Product Quality,defective_product
+"Hi tam, I was overcharged on my bill.",Billing,wrong_amount
+"Dear support, the website throws an error eery time I submit the form. I need this fixed urgently.",Technical Support,app_crash
+"To whom it may concern, the password reset link has expired. I am extremely frustrated.",Account,password_reset
+"Hi team, the item came with cracks and scratches. This is an emergency, please act immediately!",Product Quality,damaged_on_arrival
+I am still waitng for the money back from my return. I am extremely frustrated.,Refund,refund_delay
+I am writing because you took money from my accont twice. Please repond asap.,Billing,double_charge
+I need to change my email address on the account. Kindly advise.,Account,update_details
+"To whom it may concern, you sent me a different product than what I odered.",Delivery,wrong_item
+"Good morning, the product stopped working after two days. This is unacceptable!",Product Quality,defective_product
+"Hey, my account has been locked for no reason. I am extremely frustrated.",Account,account_locked
+I am writing because I was told I am not eligible for a refund. Pease look into it.,Refund,refund_denied
+I am writing becuse the parcel seems to be lost in transit. I am extremely frutrated.,Delivery,lost_package
+"Hey, my order has not arrived yet and it is long overdue.",Delivery,late_delivery
+I am writing becase I received the wrong item in my order. Please look into it.,Delivery,wrong_item
+the return was denied and I do not understand why. Thnks in advance for your help.,Refund,refund_denied
+"To whom it may concern, the screen was shattered on delivery. This is unacceptable!",Product Quality,damaged_on_arrival
+"Hi, I was told I am not eligible for a refud. This is unacceptable!",Refund,refund_denied
+"Hi, I am locked out after too many attemps. Kindly advise.",Account,account_locked
+"To whom it may concern, I never received the invoice for my purchase. Worst service eve.",Billing,invoice_missing
+"Hi, your software crahes on startup. Kindly advise.",Technical Support,app_crash
+"Hi, the item is faulty and keeps malfunctioning. Can you help?",Product Quality,defective_product
+"Dear support, trackng has not updated for days and my package is mssing. Can you help?",Delivery,lost_package
+I am writing because my account was sspended without explanation. This is unaceptable!,Account,account_locked
+"Hey, please correct the name on my profile. This is unacceptable!",Account,update_details
+"Hi team, I am locked out after too many atempts. I am very disappointed.",Account,account_locked
+how can I update my phone number and address. Can you help?,Account,update_details
+"To whom it may conern, you sent me a different product than what I ordered. I need this fixed urgently.",Delivery,wrong_item
+I was charged twice for the same orer.,Billing,double_charge
+I am writing because I need a copy of my receipt but cannot find it. Worst service ever.,Billing,invoice_missing
+"Good morning, the password reset link has expired. This is an emergency, please act immediately!",Account,password_reset
+"Good morning, I want to change my password but cannot. I need this fxed urgntly.",Account,password_reset
+"To whom it may conern, I never received the invoice for my purchase. Can you help?",Billing,invoice_missing
+"Dear support, my account has been lockd for no reason. Can you help?",Account,account_locked
+"To whom it may concern, the item is faulty and keeps malfunctioning. Thanks in advance for your help.",Product Quality,defective_product
+"Good morning, you took mney from my account twice. This is an eergency, please act immediately!",Billing,double_charge
+"Hey, access to my acount is blocked. I have been a loyal customer for years.",Account,account_locked
+"Hello, my refund request was rejected unfairly.",Refund,refund_denied
+"Hey, the app is extremely slow and laggy. Worst servie ever.",Technical Support,slow_performance
+"Hey, it broke ater minimal use. Please look into it.",Product Quality,defective_product
+"Hi team, the system response time is terrible. Kinly advise.",Technical Support,slow_performance
+the item is falty and keeps malfunctioning. This is unacceptable!,Product Quality,defective_product
+my acount has been locked for no reason. Kindly advise.,Account,account_locked
+"Hi, everything lods very slowly sine the update. Kindly advise.",Technical Support,slow_performance
+the invoice for last month is missing from my account. Thanks in advance for your help.,Billing,invoice_missing
+"Hi team, I want to change my registered details.",Account,update_details
+"Dear support, the curier says delivered but nothing is at my door. This is an emergency, please act immediatel!",Delivery,lost_package
+"Dear support, I forgot my password and the reset email is not coming.",Account,password_reset
+everything loads very slowly since the update.,Technical Support,slow_performance
+"Hi tam, there is a duplicate chage on my bank statement. Kindly advise.",Billing,double_charge
+"Hey, acess to my account is blocked. Kindly advise.",Account,account_locked
+"Good morning, the invoice for last mnth is missing from my account.",Billing,invoice_missing
+I am writing beause the rset link does not work. I need this fixed urgently.,Account,password_reset
+"Good morning, the size and colour delivered is not what I selected. I have been a loyal cstomer for years.",Delivery,wrong_item
+I am writing because I want to change my registred details. Thanks in avance for your help.,Account,update_details
+how do I cancel the purchase I just made. Wrst service ever.,Refund,cancel_order
+I am writng becuse I was charged twice for the same order. Worst service eer.,Billing,double_charge
+"Hello, you refused to refund me even though the item was faulty. Please look into it.",Refund,refund_denied
+"Hi, the wesite throws an error every time I submit the fom. Thnks in advnce for your hel.",Technical Support,app_crash
+"Hello, shipping is taking far too long. I need this fixed urgntly.",Delivery,late_delivery
+"To whom it may concern, the item is faulty and keeps malfunctioning. Please respond asap.",Product Quality,defective_product
+"Hey, the reset link does not work.",Account,password_reset
+I am writing because shippig is taking far too log. Pleae respond asap.,Delivery,late_delivery
+"Hello, I want to change my registered details. I need this fied urgently.",Account,update_details
+"To whom it may concern, please correct the name on my profile. Please look into it.",Account,update_details
+"Good morning, the product looks nothing like the pictres. I have been a loyal customer for years.",Product Quality,not_as_described
+"Good morning, pages take forever to load on your site. I am very disappointed.",Technical Support,slow_performance
+"Hllo, my account was suspended without explanation. Can you help?",Account,account_locked
+"Hey, my refund request was rejectd unfarly. I am very disappinted.",Refund,refund_denied
+"Hi, the refnd was promised in 5 days but nothing arrived. This is unacceptable!",Refund,refund_delay
+the app is extremey slow and laggy. Worst servce ever.,Technical Support,slow_performance
+"Hi team, the item is faulty and keeps malunctioning. I am very disappointed.",Product Quality,defective_product
+"To whom it may concern, the product looks nothing like the pictures.",Product Quality,not_as_described
+"To whom it may concern, the qualiy is much lower than advertised. Can you help?",Product Quality,not_as_described
+my refund request was rejected unfairly. I am very disappointed.,Refund,refund_denied
+"Good morning, the product stopped working after two days. I need this fixd urgently.",Product Quality,defective_product
+"Dear support, extra fees were added to my bill wthout any notice. Please respond asap.",Billing,wrong_amount
+I am writing because I cannot log in to my account even with correct details. Thanks in advance for your help.,Technical Support,login_issue
+"Hi team, I need to cange my email address on the account. This is an emergeny, please act immediately!",Account,update_details
+the verification code never arrives so I cannot sign in. Thanks in advace for your help.,Technical Support,login_issue
+"Dear support, the size and colour delivered is not what I selected. Pleae look into it.",Delivery,wrong_item
+I placed an order by mistake and need it cancelled. I need this fixed urgently.,Refund,cancel_order
+"Hi team, the item is faulty and keeps malfunctioning. Can you help?",Product Quality,defective_product
+I am writing because I need a copy of my receipt but cannot find it. I have been a loyal customer for years.,Billing,invoice_missing
+"Hell, I need a copy of my receipt but cannot find it.",Billing,invoice_missing
+"Dear support, I am stll waiting for the money back from my return.",Refund,refund_delay
+"Hello, the parcel seems to be lost in transit. Thnks in advance for your help.",Delivery,lost_package
+"Hi team, thee is a dplicate charge on my bank statement. Thanks in advace for your hlp.",Billing,double_charge
+"Hey, how do I cancel the purchase I just mde. Thanks in advance for your help.",Refund,cancel_order
+"Good morning, please send me the tax invoice for my order. I have been a loyal custmer for years.",Billing,invoice_missing
+I am writing because the item does not mtch the description on your website. I have been a loyal customer for years.,Product Quality,not_as_described
+"Dear support, I never recived the invoice for my purchae. Kindly advise.",Billing,invoice_missing
+"Hi, everything loads very slowly sice the update. This is unacceptable!",Technical Support,slow_performance
+the invoie for last month is missing from my account. I am very disappointed.,Billing,invoice_missing
+I am writing because the courier says delivered but nothing is at my door. This is unacceptable!,Delivery,lost_package
+"Hi team, the device is defective and will not turn on. This is an emergency, please act immediately!",Product Quality,defective_product
+"the scren was shattered on delivery. This is an emergency, please act immediately!",Product Quality,damaged_on_arrival
+"Hi, the item is fauly and keeps malfunctioning. Thanks in advance for your help.",Product Quality,defective_product
+"To whom it may concern, I need a copy of my receipt but cannot find it. I am very disappointed.",Billing,invoice_missing
+"Good morning, the invoice for last month is missing from my accunt. Please respond asap.",Billing,invoice_missing
+"To whom it may concern, everything loads very sowly since the update. Plase respond asap.",Technical Support,slow_performance
+"Hi, the product was broken when I opened the box. Kindly advise.",Product Quality,damaged_on_arrival
+"Hi team, I never received the invoice for my purchase.",Billing,invoice_missing
+"my account has been locked for no reason. This is an emergeny, please act immediately!",Account,account_locked
+"Hey, you refused to refund me even though the item was faulty. Wort service ever.",Refund,refund_denied
+I am writing because the size and colour deliveed is not what I selected. I am extremely frustrated.,Delivery,wrong_item
+"I am witing because tracking has not updated for days and my package is missin. This is an emergency, please act immediately!",Delivery,lost_package
+"Hello, I need a copy of my receipt but cannot find it. I need this fixed urgentl.",Billing,invoice_missing
+"Dear support, I received the wrong item in my order.",Delivery,wrong_item
+"Hey, the screen was shattered on delivery. I am extremely frustrated.",Product Quality,damaged_on_arrival
+the password reset link has expired. Worst service eve.,Account,password_reset
+"Hello, extra fees were added to my bill without any notice. Pease look into it.",Billing,wrong_amount
+"To whom it may concern, I fogot my password and the reset email is not coming. I need this fixed urgently.",Account,password_reset
+the reset link does not work. Worst service ever.,Account,password_reset
+"Hey, how do I cancel the purchase I just made. Kindly advis.",Refund,cancel_order
+I am writing because my acount has been lcked for no reasn. Plase respond asa.,Account,account_locked
+"Hello, your sotware crashes on startup. Please respond asap.",Technical Support,app_crash
+I am writing becase the total on my invoice does not math what I agreed to pay. I need this fxed urgently.,Billing,wrong_amount
+"Good morning, I never received the invoice for my purchase. Please look into it.",Billing,invoice_missing
+I am writng beause the pasword reset link has exired. I need this fixed urgently.,Account,password_reset
+sign in fails with an invalid credentials message.,Technical Support,login_issue
+"Dear support, the refund was pomised in 5 days but nohing arrived. I have been a loyal customer for years.",Refund,refund_delay
+"Hello, the verification code never arrives so I cannot sign in. Please respond asap.",Technical Support,login_issue
+the total on my invoie does not match what I agreed to pay. I need this fixed urgently.,Billing,wrong_amount
+"Hey, the verifiction code never arrives so I cannot sign in. I need this fixed urgently.",Technical Support,login_issue
+"Good mornig, tracking has not upated for days and my package is missing. This is uacceptable!",Delivery,lost_package
+"To whom it may concern, your software crashes on startup.",Technical Support,app_crash
+my order has not arived yet and it is long overdue. This is unacceptble!,Delivery,late_delivery
+the app keeps crashing when I open it. I have been a loyl customer for years.,Technical Support,app_crash
+I am writing because the website throws an error every time I submit the form. I am very disappointed.,Technical Support,app_crash
+the amount charged is higher than the price shown. Please look into it.,Billing,wrong_amount
